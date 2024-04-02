@@ -35,6 +35,36 @@ product_info_6_3
     03入廠機械
     03氣體鋼瓶
 
+product_info_6_4
+  大標題
+  內容
+    承攬商(系統概要)
+    入廠機械(系統概要)
+    氣體鋼瓶(系統概要)
+    危險督工(系統概要)
+    3D圖資(系統概要)
+    安全物聯(系統概要)
+
+product_info_6_5
+  大標題
+  展開說明
+  圖片(一般排序)
+  內容(一般排序)
+
+product_info_6_6
+  大標題
+  內容
+    承攬商(應用層面)
+    氣體鋼瓶(應用層面)
+    3D圖資(應用層面)
+
+
+product_info_6_7
+  大標題
+  內容
+  圖片
+
+
 
 =====================================================================*/
 
@@ -63,6 +93,10 @@ product_info_6_3
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.en-version .product_info_6_h__nav-inner a {
+  letter-spacing: 1px;
 }
 
 .product_info_6_h__nav-title {
@@ -151,53 +185,6 @@ product_info_6_3
   }
 }
 
-/*入廠機械*/
-.product_info_6_1.machine {
-  padding-bottom: 100px;
-}
-
-@media (max-width: 991px) {
-  .product_info_6_1.machine {
-    padding-bottom: 80px;
-  }
-}
-
-@media (max-width: 767px) {
-  .product_info_6_1.machine {
-    padding-bottom: 60px;
-  }
-}
-
-@media (max-width: 480px) {
-  .product_info_6_1.machine {
-    padding-bottom: 40px;
-  }
-}
-
-/*危險督工*/
-.product_info_6_1.risk {
-  padding-bottom: 100px;
-}
-
-@media (max-width: 991px) {
-  .product_info_6_1.risk {
-    padding-bottom: 80px;
-  }
-}
-
-@media (max-width: 767px) {
-  .product_info_6_1.risk {
-    padding-bottom: 60px;
-  }
-}
-
-@media (max-width: 480px) {
-  .product_info_6_1.risk {
-    padding-bottom: 40px;
-  }
-}
-
-
 
 /*/////////////////大標題/////////////////*/
 
@@ -214,6 +201,10 @@ product_info_6_3
   letter-spacing: 0.15em;
   text-align: center;
   margin-bottom: 5px;
+}
+
+.en-version .product_info_6_1__section-title-inner {
+  letter-spacing: 1px;
 }
 
 .product_info_6_1__section-title-inner:last-child {
@@ -244,6 +235,9 @@ product_info_6_3
   letter-spacing: 0.15em;
 }
 
+.en-version .product_info_6_1__disc p {
+  letter-spacing: 1px;
+}
 
 /*
 -----------------------------------------------------------------------
@@ -286,21 +280,6 @@ product_info_6_3
   overflow: hidden;
 }
 
-
-/*危險督工*/
-.product_info_6_2.risk {
-  margin-top: 0px;
-}
-
-.product_info_6_2__wrap.risk {
-  background-color: var(--color-white);
-  border-radius: 0px;
-  box-shadow: none;
-  padding: 0px;
-  position: relative;
-  overflow: hidden;
-}
-
 /*/////////////////裝飾圖/////////////////*/
 
 img[class*="product_info_6_2__deco-"] {
@@ -334,6 +313,10 @@ img[class*="product_info_6_2__deco-"] {
   letter-spacing: 0.15em;
   text-align: center;
   margin-bottom: 5px;
+}
+
+.en-version .product_info_6_2__section-title-inner {
+  letter-spacing: 1px;
 }
 
 .product_info_6_2__section-title-inner:last-child {
@@ -385,6 +368,7 @@ img[class*="product_info_6_2__deco-"] {
 
 .en-version .product_info_6_2__content-title {
   min-height: 88px;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 991px) {
@@ -403,11 +387,44 @@ img[class*="product_info_6_2__deco-"] {
   padding: 15px;
 }
 
+.en-version .product_info_6_2__content p {
+  letter-spacing: 1px;
+}
+
 @media (max-width: 767px) {
   .product_info_6_2__wrap {
     padding: 30px;
   }
 }
+
+.product_info_6_2__img {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+  .product_info_6_2__img {
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+/*入廠機械-設計理念*/
+@media (max-width: 1199px) {
+  .en-version .col-machine-design {
+    width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .en-version .col-machine-design {
+    width: 100%;
+  }
+}
+
 
 /*氣體鋼瓶-設計理念*/
 .product_info_6_2__content.gas {
@@ -482,6 +499,10 @@ img[class*="product_info_6_2__deco-"] {
   width: calc(100% - 50px);
 }
 
+.en-version .risk_box span {
+  letter-spacing: 1px;
+}
+
 @media (max-width: 1399px) {
   .risk_box span {
     font-size: var(--font-text);
@@ -526,7 +547,6 @@ img[class*="product_info_6_2__deco-"] {
 
 
 /*3D圖資-設計理念*/
-
 @media (max-width: 1199px) {
   .en-version .col-3d-design {
     width: 50%;
@@ -636,6 +656,10 @@ img[class*="product_info_6_2__deco-"] {
   letter-spacing: 0.15em;
 }
 
+.en-version .product_info_6_2__add-blockquote p {
+  letter-spacing: 1px;
+}
+
 /*
 -----------------------------------------------------------------------
     product_info_6_3(產品介紹)
@@ -694,6 +718,10 @@ img[class*="product_info_6_2__deco-"] {
 
 .en-version .product_info_6_3__tab-nav li a {
   font-size: 24px;
+}
+
+.en-version .product_info_6_3__tab-nav span {
+  letter-spacing: 1px;
 }
 
 @media (max-width: 991px) {
@@ -824,6 +852,10 @@ img[class*="product_info_6_2__deco-"] {
   margin-bottom: 25px;
 }
 
+.en-version .product_info_6_3__format-grided-title {
+  letter-spacing: 1px;
+}
+
 @media (max-width: 1199px) {
   .col-grided-format {
     width: 50%;
@@ -869,6 +901,7 @@ img[class*="product_info_6_2__deco-"] {
 
 .en-version .product_info_6_3__format_grided-funtion-title {
   min-height: 70px;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 1299px) {
@@ -909,6 +942,10 @@ img[class*="product_info_6_2__deco-"] {
   margin-bottom: 5px;
 }
 
+.en-version .product_info_6_3__format_grided-funtion ul li {
+  letter-spacing: 1px;
+}
+
 /*系統概要-運用*/
 
 @media (max-width: 576px) {
@@ -927,6 +964,10 @@ img[class*="product_info_6_2__deco-"] {
   margin-bottom: 5px;
   line-height: 1.5;
   letter-spacing: 0.15rem;
+}
+
+.en-version .product_info_6_3__format_grided-disc ul li {
+  letter-spacing: 1px;
 }
 
 .product_info_6_3__format_grided-disc ul li::marker {
@@ -1016,6 +1057,7 @@ img[class*="product_info_6_2__deco-"] {
 
 .en-version .product_info_6_3__format_equipent-funtion-title {
   min-height: 70px;
+  letter-spacing: 1px;
 }
 
 .vi-version .product_info_6_3__format_equipent-funtion-title {
@@ -1060,6 +1102,10 @@ img[class*="product_info_6_2__deco-"] {
   margin-bottom: 5px;
 }
 
+.en-version .product_info_6_3__format_equipent-funtion ul li {
+  letter-spacing: 1px;
+}
+
 /*系統概要-運用*/
 @media (max-width: 991px) {
   .product_info_6_3__format_equipent-disc {
@@ -1090,6 +1136,10 @@ img[class*="product_info_6_2__deco-"] {
   margin-bottom: 5px;
   line-height: 1.5;
   letter-spacing: 0.15rem;
+}
+
+.en-version .product_info_6_3__format_equipent-disc ul li {
+  letter-spacing: 1px;
 }
 
 .product_info_6_3__format_equipent-disc ul li::marker {
@@ -1423,363 +1473,6 @@ img[class*="product_info_6_2__deco-"] {
 
 
 
-/*-------------01入廠機械-------------*/
-
-/*系統概要-功能*/
-.product_info_6_3__format_machine-funtion-wrap {
-  margin-bottom: 50px;
-}
-
-@media (max-width: 1199px) {
-  .product_info_6_3__format_machine-funtion-wrap {
-    margin-bottom: 20px;
-  }  
-}
-
-@media (max-width: 767px) {
-  .product_info_6_3__format_machine-funtion-wrap {
-    margin-bottom: 50px;
-  }  
-}
-
-@media (max-width: 576px) {
-  .product_info_6_3__format_machine-funtion-wrap {
-    margin-bottom: 30px;
-  }  
-}
-
-
-@media (max-width: 1199px) {
-  .col-machine-format {
-    width: 50%;
-    margin-bottom: 30px;
-  }  
-}
-
-@media (max-width: 767px) {
-  .col-machine-format {
-    width: 100%;
-    margin-bottom: 20px;
-  } 
-
-  .col-machine-format:last-child {
-    margin-bottom: 0px;
-  } 
-}
-
-.product_info_6_3__format-machine-title {
-  text-align: center;
-  font-size: var(--font-main3);
-  color: var(--color-primary);
-  font-weight: bold;
-  margin-bottom: 25px;
-}
-
-.product_info_6_3__format_machine-funtion {
-  text-align: center;
-  background-color: var(--color-white);
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 100%;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
-}
-
-.product_info_6_3__format_machine-funtion-icon {
-  background-image: linear-gradient(to right, #0F2B5B, #255EA5);
-  border-radius: 12px;
-  color: var(--color-white);
-  text-align: center;
-  margin-bottom: 0px;
-  width: 20%;
-  border: solid 4px #fff;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.en-version .product_info_6_3__format_machine-funtion-icon {
-  width: 30%;
-}
-
-.en-version .product_info_6_3__format_machine-funtion-icon i {
-  font-size: 22px;
-}
-
-@media (max-width: 1199px) {
-  .product_info_6_3__format_machine-funtion-icon {
-    width: 30%;
-  }
-
-  .en-version .product_info_6_3__format_machine-funtion-icon {
-    min-height: 95px;
-  }
-}
-
-@media (max-width: 991px) {
-  .product_info_6_3__format_machine-funtion-icon {
-    width: 20%;
-  }
-
-  .en-version .product_info_6_3__format_machine-funtion-icon {
-    min-height: 125px;
-  }
-}
-
-@media (max-width: 767px) {
-  .en-version .product_info_6_3__format_machine-funtion-icon {
-    min-height: 95px;
-  }
-}
-
-.product_info_6_3__format_machine-funtion p {
-  padding: 15px 0px;
-  border-radius: 12px;
-  line-height: 1.8;
-  width: 80%;
-}
-
-.en-version .product_info_6_3__format_machine-funtion p {
-  width: 70%;
-}
-
-@media (max-width: 1199px) {
-  .product_info_6_3__format_machine-funtion p {
-    width: 70%;
-  }
-}
-
-@media (max-width: 991px) {
-  .product_info_6_3__format_machine-funtion p {
-    width: 80%;
-  }
-}
-
-.product_info_6_3__format_machine-funtion ul {
-  margin-top: 0px;
-  padding: 10px 30px;
-  padding-left: 50px;
-}
-
-.product_info_6_3__format_machine-funtion ul li {
-  list-style: disc;
-  text-align: left;
-  line-height: 1.5;
-  letter-spacing: 0.15rem;
-  margin-bottom: 5px;
-}
-
-
-/*系統概要-圖片*/
-.product_info_6_3__format_machine-img {
-  border-radius: 12px;
-  overflow: hidden;
-  margin-bottom: 50px;
-}
-
-@media (max-width: 576px) {
-  .product_info_6_3__format_machine-img {
-    margin-bottom: 30px;
-  }
-}
-
-/*系統概要-內文*/
-
-.product_info_6_3__format_machine-disc p {
-  margin-bottom: 10px;
-}
-
-.product_info_6_3__format_machine-disc ul {
-  padding-left: 26px;
-  margin-bottom: 0;
-}
-
-.product_info_6_3__format_machine-disc ul li {
-  list-style: disc;
-  margin-bottom: 5px;
-  line-height: 1.7;
-  letter-spacing: 0.15rem;
-}
-
-.product_info_6_3__format_machine-disc ul li::marker {
-  color: #195A83;
-  font-size: 22px;
-}
-
-.product_info_6_3__format_machine-disc span {
-  padding: 3px 10px;
-  /*line-height: 3;*/
-  border-radius: 20px;
-  background-color: var(--color-third);
-  color: var(--color-white)
-}
-
-
-
-/*-------------01氣體鋼瓶-------------*/
-
-/*系統概要-功能*/
-
-.product_info_6_3__format_gas-funtion {
-  text-align: center;
-  background-color: var(--color-white);
-  border-radius: 12px;
-  height: 100%;
-}
-
-@media (max-width: 767px) {
-  .product_info_6_3__format_gas-funtion {
-    height: auto;
-  }
-}
-
-.product_info_6_3__format_gas-funtion-title {
-  background-color: var(--color-third);
-  padding: 15px;
-  border-radius: 12px 12px 0px 0px;
-  color: var(--color-white);
-  text-align: center;
-  margin-bottom: 0px;
-}
-
-@media (max-width: 1399px) {
-  .en-version .product_info_6_3__format_gas-funtion-title {
-    min-height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width: 767px) {
-  .en-version .product_info_6_3__format_gas-funtion-title {
-    min-height: 0px;
-  }
-}
-
-.product_info_6_3__format_gas-funtion p {
-  padding: 15px 30px;
-  border-radius: 12px;
-  line-height: 1.8;
-}
-
-.en-version .product_info_6_3__format_gas-funtion p {
-  text-align: left;
-}
-
-.product_info_6_3__format_gas-funtion ul {
-  margin-top: 0px;
-  padding: 10px 30px;
-  /*padding-left: 50px;*/
-}
-
-@media (max-width: 767px) {
-  .product_info_6_3__format_gas-funtion ul {
-    margin-bottom: 0px;
-  }
-}
-
-.product_info_6_3__format_gas-funtion ul li {
-  list-style: none;
-  text-align: center;
-  line-height: 1.5;
-  letter-spacing: 0.15rem;
-  margin-bottom: 5px;
-}
-
-
-/*-------------01危險督工-------------*/
-
-/*系統概要-功能*/
-.col-risk-format {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-@media (max-width: 1199px) {
-  .col-risk-format {
-    width: 50%;
-  }
-}
-
-@media (max-width: 767px) {
-  .col-risk-format {
-    width: 100%;
-  }
-}
-
-.product_info_6_3__format_risk-funtion {
-  text-align: center;
-  background-color: var(--color-white);
-  border-radius: 12px;
-  height: 100%;
-}
-
-@media (max-width: 767px) {
-  .product_info_6_3__format_risk-funtion {
-    height: auto;
-  }
-}
-
-.product_info_6_3__format_risk-funtion-title {
-  background-color: var(--color-third);
-  padding: 15px;
-  border-radius: 12px 12px 0px 0px;
-  color: var(--color-white);
-  text-align: center;
-  margin-bottom: 0px;
-}
-
-@media (max-width: 1399px) {
-  .en-version .product_info_6_3__format_risk-funtion-title {
-    min-height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width: 767px) {
-  .en-version .product_info_6_3__format_risk-funtion-title {
-    min-height: 0px;
-  }
-}
-
-.product_info_6_3__format_risk-funtion p {
-  padding: 15px 30px;
-  border-radius: 12px;
-  line-height: 1.8;
-}
-
-.en-version .product_info_6_3__format_risk-funtion p {
-  text-align: left;
-}
-
-.product_info_6_3__format_risk-funtion ul {
-  margin-top: 0px;
-  padding: 10px 30px;
-  /*padding-left: 50px;*/
-}
-
-@media (max-width: 767px) {
-  .product_info_6_3__format_risk-funtion ul {
-    margin-bottom: 0px;
-  }
-}
-
-.product_info_6_3__format_risk-funtion ul li {
-  list-style: none;
-  text-align: center;
-  line-height: 1.5;
-  letter-spacing: 0.15rem;
-  margin-bottom: 5px;
-}
-
-
-
 /*/////////////////02產品說明/////////////////*/
 
 
@@ -1800,6 +1493,10 @@ img[class*="product_info_6_2__deco-"] {
   letter-spacing: 0.15em;
   text-align: center;
   margin-bottom: 5px;
+}
+
+.en-version .product_info_6_3__detial-title-inner {
+  letter-spacing: 1px;
 }
 
 .product_info_6_3__detial-title-inner:last-child {
@@ -1856,9 +1553,17 @@ img[class*="product_info_6_2__deco-"] {
   font-size: var(--font-text);
 }
 
+.en-version .product_6_3__intro ul>li {
+  letter-spacing: 1px;
+}
+
 .product_6_3__intro p {
   font-size: var(--font-main3);
   letter-spacing: 0.15rem;
+}
+
+.en-version .product_6_3__intro p {
+  letter-spacing: 1px;
 }
 
 @media (max-width: 480px) {
@@ -1876,6 +1581,7 @@ img[class*="product_info_6_2__deco-"] {
 
 .en-version .product_info_6_3 .title {
   line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 
@@ -1952,6 +1658,11 @@ img[class*="product_info_6_2__deco-"] {
   .product_info_6_3__swiper-button__wrapper {
     margin-top: 10px;
   }
+}
+
+.product_info_6_3__swiper {
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 30px; 
 }
 
 .product_info_6_3 .swiper-slide {
@@ -2054,7 +1765,7 @@ img[class*="product_info_6_2__deco-"] {
 }
 
 .product_info_6_3__product-item {
-  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.07);
+  /*box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.07);*/
 }
 
 .product_info_6_3__inner-content {
@@ -2241,6 +1952,10 @@ img[class*="product_info_6_2__deco-"] {
   letter-spacing: 0.15rem;
 }
 
+.en-version .product_info_6_3__application_grided-disc ul li {
+  letter-spacing: 1px;
+}
+
 .product_info_6_3__application_grided-disc ul li::marker {
   color: #EF8200;
   font-size: 22px;
@@ -2268,6 +1983,7 @@ img[class*="product_info_6_2__deco-"] {
 
 .en-version .product_info_6_3__application_grided-funtion-title {
   min-height: 96px;
+  letter-spacing: 1px;
 }
 
 
@@ -2352,6 +2068,10 @@ img[class*="product_info_6_2__deco-"] {
   letter-spacing: 0.15rem;
 }
 
+.en-version .product_info_6_3__application_equipent-disc ul li {
+  letter-spacing: 1px;
+}
+
 .product_info_6_3__application_equipent-disc ul li::marker {
   color: #EF8200;
   font-size: 22px;
@@ -2377,6 +2097,7 @@ img[class*="product_info_6_2__deco-"] {
 
 .en-version .product_info_6_3__application_equipent-funtion-title {
   min-height: 96px;
+  letter-spacing: 1px;
 }
 
 .vi-version .product_info_6_3__application_equipent-funtion-title {
@@ -2441,6 +2162,7 @@ img[class*="product_info_6_2__deco-"] {
 
 .en-version .product_info_6_3__application_equipent-funtion p {
   min-height: 165px;
+  letter-spacing: 1px;
 }
 
 .vi-version .product_info_6_3__application_equipent-funtion p {
@@ -2660,59 +2382,6 @@ img[class*="product_info_6_2__deco-"] {
 }
 
 
-
-/*-------------03入廠機械-------------*/
-
-/*應用-圖片*/
-.product_info_6_3__application_machine-img {
-  border-radius: 12px;
-  overflow: hidden;
-  margin-bottom: 50px;
-}
-
-@media (max-width: 576px) {
-  .product_info_6_3__application_machine-img {
-    margin-bottom: 20px;
-  }
-}
-
-/*應用-內文*/
-.product_info_6_3__application_machine-disc {
-  margin-bottom: 50px;
-}
-
-@media (max-width: 576px) {
-  .product_info_6_3__application_machine-disc {
-    margin-bottom: 0px;
-  }
-}
-
-.product_info_6_3__application_machine-disc ul {
-  padding-left: 20px;
-  margin-bottom: 0;
-}
-
-.product_info_6_3__application_machine-disc ul li {
-  list-style: disc;
-  margin-bottom: 5px;
-  line-height: 1.5;
-  letter-spacing: 0.15rem;
-}
-
-.product_info_6_3__application_machine-disc ul li::marker {
-  color: #EF8200;
-}
-
-.product_info_6_3__application_machine-disc span {
-  padding: 3px 10px;
-  line-height: 3;
-  border-radius: 20px;
-  background-color: var(--color-third);
-  color: var(--color-white)
-}
-
-
-
 /*
 -----------------------------------------------------------------------
     product_info_6_4
@@ -2732,6 +2401,8 @@ img[class*="product_info_6_2__deco-"] {
 
 .product_info_6_4__section-title {
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 767px) {
@@ -2750,6 +2421,10 @@ img[class*="product_info_6_2__deco-"] {
   margin-bottom: 0px;
   z-index: 2;
   text-align: left;
+}
+
+.en-version .product_info_6_4__section-title-inner {
+  letter-spacing: 1px;
 }
 
 .product_info_6_4__section-title-inner:last-child {
@@ -2773,11 +2448,124 @@ img[class*="product_info_6_2__deco-"] {
   text-align: left;
 }
 
+.product_info_6_4__section-title-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
 
 /*/////////////////內容/////////////////*/
 
-/*氣體鋼瓶-系統概要*/
 
+/*承攬商-系統概要*/
+@media (max-width: 1199px) {
+  .col-contract-format {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-contract-format {
+    width: 100%;
+  }
+}
+
+.product_info_6_4__format_contract-funtion {
+  box-shadow: 0 0 5px 0 #459ede7a;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: var(--color-white);
+  height: 100%;
+}
+
+.product_info_6_4__format_contract-funtion-title {
+  border-radius: 12px;
+  color: var(--color-primary);
+  margin-bottom: 0px;
+  font-size: var(--font-main2);
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.en-version .product_info_6_4__format_contract-funtion-title {
+  letter-spacing: 1px;
+}
+
+.product_info_6_4__format_contract-funtion-disc ul {
+  line-height: 1.5;
+  margin-bottom: 0px;
+  padding-left: 24px;
+}
+
+.product_info_6_4__format_contract-funtion-disc ul li {
+  list-style: disc;
+}
+
+.en-version .product_info_6_4__format_contract-funtion-disc ul li {
+  letter-spacing: 1px;
+}
+
+.product_info_6_4__format_contract-funtion-disc ul li::marker {
+  color: var(--color-primary);
+  font-size: 22px;
+}
+
+.product_info_6_4__format_contract-funtion-disc.format-report {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product_info_6_4__format_contract-funtion-disc.format-report ul {
+  width: 33.3%;
+}
+
+@media (max-width: 1199px) {
+  .product_info_6_4__format_contract-funtion-disc.format-report ul {
+    width: 100%;
+  }
+}
+
+
+/*入廠機械-系統概要*/
+@media (max-width: 1199px) {
+  .col-machine-format {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-machine-format {
+    width: 100%;
+  }
+}
+
+.product_info_6_4__format_machine-funtion {
+  box-shadow: 0 0 5px 0 #459ede7a;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: var(--color-white);
+  height: 100%;
+}
+
+.product_info_6_4__format_machine-funtion-title {
+  border-radius: 12px;
+  color: var(--color-primary);
+  margin-bottom: 0px;
+  font-size: var(--font-main2);
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.en-version .product_info_6_4__format_machine-funtion-title {
+  letter-spacing: 1px;
+}
+
+
+
+/*氣體鋼瓶-系統概要*/
 @media (max-width: 1199px) {
   .col-gas-format {
     width: 50%;
@@ -2789,7 +2577,6 @@ img[class*="product_info_6_2__deco-"] {
     width: 100%;
   }
 }
-
 
 .product_info_6_4__format_gas-funtion {
   box-shadow: 0 0 5px 0 #459ede7a;
@@ -2809,6 +2596,10 @@ img[class*="product_info_6_2__deco-"] {
   line-height: 1.5;
 }
 
+.en-version .product_info_6_4__format_gas-funtion-title {
+  letter-spacing: 1px;
+}
+
 .product_info_6_4__format_gas-funtion-disc ul {
   line-height: 1.5;
   margin-bottom: 0px;
@@ -2825,6 +2616,7 @@ img[class*="product_info_6_2__deco-"] {
 }
 
 
+
 /*危險督工-系統概要*/
 @media (max-width: 1199px) {
   .col-risk-format {
@@ -2837,7 +2629,6 @@ img[class*="product_info_6_2__deco-"] {
     width: 100%;
   }
 }
-
 
 .product_info_6_4__format_risk-funtion {
   box-shadow: 0 0 5px 0 #459ede7a;
@@ -2856,6 +2647,10 @@ img[class*="product_info_6_2__deco-"] {
   margin-bottom: 20px;
 }
 
+.en-version .product_info_6_4__format_risk-funtion-title {
+  letter-spacing: 1px;
+}
+
 
 
 /*3D圖資-系統概要*/
@@ -2870,7 +2665,6 @@ img[class*="product_info_6_2__deco-"] {
     width: 100%;
   }
 }
-
 
 .product_info_6_4__format_3d-funtion {
   box-shadow: 0 0 5px 0 #459ede7a;
@@ -2890,6 +2684,10 @@ img[class*="product_info_6_2__deco-"] {
   line-height: 1.5;
 }
 
+.en-version .product_info_6_4__format_3d-funtion-title {
+  letter-spacing: 1px;
+}
+
 .product_info_6_4__format_3d-funtion-disc ul {
   line-height: 1.5;
   margin-bottom: 0px;
@@ -2900,11 +2698,296 @@ img[class*="product_info_6_2__deco-"] {
   list-style: disc;
 }
 
+.en-version .product_info_6_4__format_3d-funtion-disc ul li {
+  letter-spacing: 1px;
+} 
+
 .product_info_6_4__format_3d-funtion-disc ul li::marker {
   color: var(--color-primary);
   font-size: 22px;
 }
 
+
+
+/*安全物聯-系統概要*/
+.product_info_6_4__flow-iot-box {
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px 0 #459ede7a;
+  border-radius: 10px;
+  min-height: 220px;
+  text-align: center;
+  padding: 30px;
+  /*box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);*/
+}
+
+.flow-iot-bottom::before {
+  content: "";
+  background-image: url(../img/demo/product/iot/icon-msg-arrow.svg);
+  width: 51px;
+  height: 21px;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flow-iot-right::before {
+  content: "";
+  background-image: url(../img/demo/product/iot/icon-msg-arrow.svg);
+  width: 51px;
+  height: 21px;
+  position: absolute;
+  top: 50%;
+  right: -36px;
+  left: auto;
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.flow-iot-left::before {
+  content: "";
+  background-image: url(../img/demo/product/iot/icon-msg-arrow.svg);
+  width: 51px;
+  height: 21px;
+  position: absolute;
+  top: 50%;
+  right: auto;
+  left: -36px;
+  transform: translateY(-50%) rotate(90deg);
+}
+
+/*@media (max-width: 991px) {
+  .flow-iot-bottom::before, 
+  .flow-iot-right::before, 
+  .flow-iot-left::before {
+    display: none;
+  }
+}*/
+
+/*.rwd-flow-iot-bottom::before, 
+.rwd-flow-iot-right::before, 
+.rwd-flow-iot-left::before {
+  display: none;
+}*/
+
+@media (max-width: 991px) {
+  .rwd-flow-iot-bottom::before {
+    content: "";
+    background-image: url(../img/demo/product/iot/icon-msg-arrow.svg);
+    width: 51px;
+    height: 21px;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .rwd-flow-iot-right::before {
+    content: "";
+    background-image: url(../img/demo/product/iot/icon-msg-arrow.svg);
+    width: 51px;
+    height: 21px;
+    position: absolute;
+    top: 50%;
+    right: -36px;
+    left: auto;
+    transform: translateY(-50%) rotate(-90deg);
+  }
+
+  .rwd-flow-iot-left::before {
+    content: "";
+    background-image: url(../img/demo/product/iot/icon-msg-arrow.svg);
+    width: 51px;
+    height: 21px;
+    position: absolute;
+    top: 50%;
+    right: auto;
+    left: -36px;
+    transform: translateY(-50%) rotate(90deg);
+  }
+}
+
+.flow-img img {
+  width: 120px;
+}
+
+.flow-icon {
+  margin-bottom: 1rem;
+}
+
+.flow-title {
+  font-size: var(--font-main3);
+  color: var(--color--primary);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.en-version .flow-title {
+  letter-spacing: 1px;
+}
+
+.flow-disc ul {
+  line-height: 1.5;
+  margin-bottom: 0px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.flow-disc ul li {
+  list-style: disc;
+  font-size: 16px;
+}
+
+.en-version .flow-disc ul li {
+  letter-spacing: 1px;
+}
+
+.flow-disc ul li::marker {
+  color: #6c757d;
+  font-size: 20px;
+}
+
+@media (max-width: 1199px) {
+  .col-iot-format {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-iot-format {
+    width: 100%;
+  }
+}
+
+.product_info_6_4__format_iot-funtion {
+  box-shadow: 0 0 5px 0 #459ede7a;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: var(--color-white);
+  height: 100%;
+  position: relative;
+}
+
+.product_info_6_4__format_iot-funtion-img {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(50%, -50%);
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  .product_info_6_4__format_iot-funtion-img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(25%, -25%);
+    z-index: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  .product_info_6_4__format_iot-funtion-img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(-25%, -25%);
+    z-index: 1;
+  }
+}
+
+.product_info_6_4__format_iot-funtion-img img {
+  width: 100px;
+}
+
+@media (max-width: 991px) {
+  .product_info_6_4__format_iot-funtion-img img {
+    width: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .product_info_6_4__format_iot-funtion-img img {
+    width: 60px;
+  }
+}
+
+.product_info_6_4__format_iot-funtion-tag {
+  display: inline-flex;
+  align-items: center;
+  background-color: #3360FF;
+  border-radius: 50px;
+  color: #fff;
+  white-space: nowrap;
+  height: max-content;
+  padding: 3px 20px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin: 0;
+  font-size: var(--font-small-text);
+}
+
+@media (max-width: 767px) {
+  .product_info_6_4__format_iot-funtion-tag {
+    top: 0;
+    left: 5%;
+    transform: translate(0%, -50%);
+  }
+}
+
+.en-version .product_info_6_4__format_iot-funtion-tag {
+  white-space: normal;
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.product_info_6_4__format_iot-funtion-title {
+  border-radius: 12px;
+  color: var(--color-primary);
+  margin-bottom: 0px;
+  font-size: var(--font-main2);
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.en-version .product_info_6_4__format_iot-funtion-title {
+  letter-spacing: 1px;
+} 
+
+.product_info_6_4__format_iot-funtion-disc ul {
+  line-height: 1.5;
+  margin-bottom: 0px;
+  padding-left: 24px;
+}
+
+.product_info_6_4__format_iot-funtion-disc ul li {
+  list-style: disc;
+}
+
+.en-version .product_info_6_4__format_iot-funtion-disc ul li {
+  letter-spacing: 1px;
+}
+
+.product_info_6_4__format_iot-funtion-disc ul li::marker {
+  color: var(--color-primary);
+  font-size: 22px;
+}
+
+.product_info_6_4__format_iot-funtion-disc p {
+  line-height: 1.5;
+}
 
 
 /*
@@ -2928,6 +3011,7 @@ img[class*="product_info_6_2__deco-"] {
 
 .product_info_6_5__section-title {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .product_info_6_5__section-title-inner {
@@ -2939,6 +3023,10 @@ img[class*="product_info_6_2__deco-"] {
   letter-spacing: 0.15em;
   text-align: center;
   margin-bottom: 5px;
+}
+
+.en-version .product_info_6_5__section-title-inner {
+  letter-spacing: 1px;
 }
 
 .product_info_6_5__section-title-inner:last-child {
@@ -2960,6 +3048,108 @@ img[class*="product_info_6_2__deco-"] {
   z-index: 2;
   font-weight: 400;
   text-align: center; 
+}
+
+.product_info_6_5__section-title-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/*/////////////////展開說明/////////////////*/
+
+/*product_info_6_5.accordion {
+  margin: 0rem 10rem;
+}*/
+
+.product_info_6_5__accordion .accordion-item {
+  border: none;
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+.product_info_6_5__accordion .accordion-item:first-of-type .accordion-button {
+  background-color: var(--color-primary);
+  border-radius: 12px;
+}
+
+.product_info_6_5__accordion .accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 12px;
+}
+
+.product_info_6_5__accordion .accordion-button {
+  background-color: var(--color-primary);
+  padding: 1.75rem;
+  border-radius: 12px;
+}
+
+.product_info_6_5__accordion .accordion-button:not(.collapsed) {
+  background-color: var(--color-primary);
+  border-radius: 12px;
+}
+
+.product_info_6_5__accordion .accordion-button::after {
+  background-image: url(../img/demo/product/icon_add.png);
+}
+
+.product_info_6_5__accordion .accordion-button:not(.collapsed)::after {
+  background-image: url(../img/demo/product/icon_min.png);
+}
+
+.product_info_6_5__detial-title {
+  width: 95%;
+}
+
+.product_info_6_5__detial-title-inner {
+  color: var(--color-white);
+  font-size: var(--font-main1);
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  letter-spacing: 0.15em;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.en-version .product_info_6_5__detial-title-inner {
+  letter-spacing: 1px;
+}
+
+.product_info_6_5__detial-title-inner:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .product_info_6_5__detial-title-inner {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 375px) {
+  .product_info_6_5__detial-title-inner {
+    font-size: 20px;
+  }
+}
+
+.product_info_6_5__detial-title-inner-en {
+  color: #eee;
+  font-size: var(--font-text);
+  line-height: 1.5;
+  position: relative;
+  letter-spacing: 0.15em;
+  z-index: 2;
+  font-weight: 400;
+  text-align: center; 
+}
+
+.en-version .product_info_6_5__detial-title-inner-en {
+  letter-spacing: 1px;
+}
+
+@media (max-width: 991px) {
+  .product_info_6_5__detial-title-inner-en {
+    font-size: 16px;
+  }
 }
 
 
@@ -3048,9 +3238,17 @@ img[class*="product_info_6_2__deco-"] {
   padding-left: 40px;
 }
 
+.en-version .product_6_5__intro ul>li {
+  letter-spacing: 1px;
+}
+
 .product_6_5__intro p {
   font-size: var(--font-main3);
   letter-spacing: 0.15rem;
+}
+
+.en-version .product_6_5__intro p {
+  letter-spacing: 1px;
 }
 
 @media (max-width: 480px) {
@@ -3068,6 +3266,7 @@ img[class*="product_info_6_2__deco-"] {
 
 .en-version .product_info_6_5 .title {
   line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 
@@ -3092,6 +3291,8 @@ img[class*="product_info_6_2__deco-"] {
 
 .product_info_6_6__section-title {
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 767px) {
@@ -3110,6 +3311,10 @@ img[class*="product_info_6_2__deco-"] {
   margin-bottom: 0px;
   z-index: 2;
   text-align: left;
+}
+
+.en-version .product_info_6_6__section-title-inner {
+  letter-spacing: 1px;
 }
 
 .product_info_6_6__section-title-inner:last-child {
@@ -3133,8 +3338,223 @@ img[class*="product_info_6_2__deco-"] {
   text-align: left;
 }
 
+.product_info_6_6__section-title-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
 
 /*/////////////////內容/////////////////*/
+
+
+/*承攬商-應用層面*/
+.product_info_6_6__application_contract-box {
+  background-color: var(--color-white);
+  box-shadow: 0 0 5px 0 #459ede7a;
+  /*border: 4px solid #F2F2F2;*/
+  padding: 2rem;
+  border-radius: 12px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product_info_6_6__application_contract-box-img {
+  transition: 0.5s;
+  overflow: hidden;
+  text-align: left;
+  width: 30%;
+}
+
+@media (max-width: 1199px) {
+  .product_info_6_6__application_contract-box-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.product_info_6_6__application_contract-box-img img {
+  transition: 0.5s;
+}
+
+.product_info_6_6__application_contract-box-img:hover img {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.product_info_6_6__application_contract-box-text {
+  position: relative;
+  width: 70%;
+}
+
+@media (max-width: 1199px) {
+  .product_info_6_6__application_contract-box-text {
+    width: 100%;
+  }
+
+  .product_info_6_6__application_contract-box-text p {
+    text-align: center;
+  }
+}
+
+.product_info_6_6__application_contract-box-text .title {
+  text-align: left;
+  font-size: var(--font-main2);
+  font-weight: bold;
+  color: var(--color-black);
+  margin-bottom: 10px;
+}
+
+.en-version .product_info_6_6__application_contract-box-text .title {
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1199px) {
+  .product_info_6_6__application_contract-box-text .title {
+    text-align: center;
+  }
+}
+
+
+
+/*行動稽核-應用層面*/
+img[class*="product_info_6_6__application_ehs-deco-"] {
+  position: absolute;
+  width: 100px;
+}
+
+.product_info_6_6__application_ehs-deco-1 {
+  top: 0%;
+  left: 5%;
+}
+
+.product_info_6_6__application_ehs-deco-2 {
+  top: 10%;
+  right: 5%;
+}
+
+.product_info_6_6__application_ehs-deco-3 {
+  top: 15%;
+  left: 8%;
+}
+
+.product_info_6_6__application_ehs-deco-4 {
+  top: 12%;
+  right: 40%;
+}
+
+.product_info_6_6__application_ehs-deco-5 {
+  top: 5%;
+  left: 30%;
+}
+
+.product_info_6_6__application_ehs-deco-6 {
+  top: 0%;
+  right: 30%;
+}
+
+.product_info_6_6__application_ehs-box {
+  background-color: var(--color-white);
+  box-shadow: 0 0 5px 0 #459ede7a;
+  padding: 2rem;
+  border-radius: 12px;
+  height: 100%;
+}
+
+.product_info_6_6__application_ehs-box-img {
+  transition: 0.5s;
+  overflow: hidden;
+  text-align: left;
+}
+
+@media (max-width: 1199px) {
+  .product_info_6_6__application_ehs-box-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.product_info_6_6__application_ehs-box-img img {
+  transition: 0.5s;
+}
+
+.product_info_6_6__application_ehs-box-img:hover img {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.product_info_6_6__application_ehs-box-text {
+  position: relative;
+  /*width: 70%;*/
+}
+
+@media (max-width: 1199px) {
+  .product_info_6_6__application_ehs-box-text {
+    width: 100%;
+  }
+
+  .product_info_6_6__application_ehs-box-text p {
+    text-align: center;
+  }
+}
+
+.product_info_6_6__application_ehs-box-text .title {
+  text-align: left;
+  font-size: var(--font-main2);
+  font-weight: bold;
+  color: var(--color-black);
+  margin-bottom: 10px;
+}
+
+.en-version .product_info_6_6__application_ehs-box-text .title {
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1199px) {
+  .product_info_6_6__application_ehs-box-text .title {
+    text-align: center;
+  }
+}
+
+.product_info_6_6__application_ehs-icon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+  .product_info_6_6__application_ehs-icon {
+    justify-content: center;
+  }
+}
+
+.product_info_6_6__application_ehs-icon img {
+  width: 10%;
+  padding-right: 30px;
+}
+
+@media (max-width: 1399px) {
+  .product_info_6_6__application_ehs-icon img {
+    width: 13%;
+  }
+}
+
+@media (max-width: 991px) {
+  .product_info_6_6__application_ehs-icon img {
+    width: 25%;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .product_info_6_6__application_ehs-icon img {
+    padding: 0px 15px;
+  }
+}
+
+
 
 /*氣體鋼瓶-應用層面*/
 .product_info_6_6__application_gas-box {
@@ -3183,6 +3603,11 @@ img[class*="product_info_6_2__deco-"] {
   font-weight: 500;
   color: var(--color-black);
 }
+
+.en-version .product_info_6_6__application_gas-box-text .title {
+  letter-spacing: 1px;
+}
+
 
 
 /*3D圖資-應用層面*/
@@ -3244,8 +3669,234 @@ img[class*="product_info_6_2__deco-"] {
   margin-bottom: 10px;
 }
 
+.en-version .product_info_6_6__application_3d-box-text .title {
+  letter-spacing: 1px;
+}
+
 @media (max-width: 1199px) {
   .product_info_6_6__application_3d-box-text .title {
     text-align: center;
+  }
+}
+
+
+
+/*
+-----------------------------------------------------------------------
+    product_info_6_7
+-----------------------------------------------------------------------
+*/
+
+
+.product_info_6_7 {
+  position: relative;
+  background-image: linear-gradient(to bottom,#ffffff,#459ede4d,#ffffff);
+}
+
+.product_info_6_7:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50%;
+  background-color: #005DB4;
+  left: 0%;
+  top: 100px;
+  border-radius: 0px 12px 12px 0px;
+}
+
+@media (max-width: 1199px) {
+  .product_info_6_7:before {
+    left: auto;
+    right: 0%;
+    border-radius: 12px 0px 0px 12px;
+  }
+}
+
+@media (max-width: 991px) {
+  .product_info_6_7:before {
+    display: none;
+  }
+}
+
+/*/////////////////大標題/////////////////*/
+
+.product_info_6_7__block-title {
+  margin-bottom: 40px;
+  position: relative;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .product_info_6_7__block-title {
+    margin-bottom: 20px;
+  }
+}
+
+.product_info_6_7__block-title::before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  height: 10px;
+  background-color: var(--color-primary);
+  opacity: 0.3;
+}
+
+.product_info_6_7__block-title-inner {
+  /*color: var(--color-white);*/
+  font-size: var(--font-main1);
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  letter-spacing: 0.15em;
+  margin-bottom: 0px;
+  z-index: 2;
+  text-align: left;
+}
+
+.en-version .product_info_6_7__block-title-inner {
+  letter-spacing: 1px;
+}
+
+.product_info_6_7__block-title-inner:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 375px) {
+  .product_info_6_7__block-title-inner {
+    font-size: 24px;
+  }
+}
+
+.product_info_6_7__block-title-inner-en {
+  color: var(--color-gray);
+  font-size: var(--font-text);
+  line-height: 1.5;
+  position: relative;
+  letter-spacing: 0.15em;
+  z-index: 2;
+  font-weight: 400; 
+  text-align: left;
+}
+
+/*/////////////////內容/////////////////*/
+
+/*product_info_6_7__accordion .accordion {
+  margin: 0rem 10rem;
+}*/
+
+.product_info_6_7__accordion.accordion-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product_info_6_7__accordion .product_info_6_7__item-wrap {
+  width: 50%;
+  padding: 0px 20px;
+}
+
+
+.product_info_6_7__accordion .accordion-item {
+  border: none;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(71,79,108,0.15);
+  border-radius: 12px;
+}
+
+.product_info_6_7__accordion .accordion-item:first-of-type {
+
+}
+
+.product_info_6_7__accordion .accordion-item:last-of-type .accordion-button.collapsed {
+}
+
+/*展開*/
+.product_info_6_7__accordion .accordion-button:not(.collapsed) {
+  background-color: #fff;
+  border-radius: 12px;
+  color: #005DB4;
+  font-size: var(--font-main2);
+  font-weight: bold;
+  box-shadow: none;
+}
+
+.en-version .product_info_6_7__accordion .accordion-button:not(.collapsed) {
+  letter-spacing: 1px;
+}
+
+/*縮合*/
+.product_info_6_7__accordion .accordion-button {
+  background-color: transparent;
+  padding: 1.75rem;
+  border-radius: 12px;
+  color: #005DB4;
+  font-size: var(--font-main2);
+  font-weight: bold;
+}
+
+.en-version .product_info_6_7__accordion .accordion-button {
+  letter-spacing: 1px;
+}
+
+/*展開鈕*/
+.product_info_6_7__accordion .accordion-button::after {
+  background-image: url(../img/demo/product/icon_down.png);
+}
+
+/*縮合鈕*/
+/*.product_info_6_7__accordion .accordion-button:not(.collapsed)::after {
+  background-image: url(../img/demo/product/icon_up.png);
+}*/
+
+
+.product_info_6_7__accordion .accordion-body {
+  padding: 1rem 1.75rem;
+}
+
+.product_info_6_7__accordion .accordion-body ul {
+  padding-left: 24px;
+  line-height: 2;
+}
+
+.product_info_6_7__accordion .accordion-body ul li {
+  list-style: disc;
+}
+
+.en-version .product_info_6_7__accordion .accordion-body ul li {
+  letter-spacing: 1px;
+}
+
+.product_info_6_7__text {
+  padding: 0px;
+}
+
+.product_info_6_7__text p {
+  text-align: left;
+  position: relative;
+  z-index: 2;
+}
+
+/*/////////////////圖片/////////////////*/
+
+.product_info_6_7__img-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.product_info_6_7__icon2 {
+  padding-top: 100px;
+}
+
+@media (max-width: 480px) {
+  .product_info_6_7__icon2 {
+    padding-top: 0px;
   }
 }
