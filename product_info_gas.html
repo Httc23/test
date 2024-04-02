@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>氣體鋼瓶管理系統 | 鴻才科技股份有限公司</title>
+  <!-- FB用，也會影響SEO分數 -->
+  <meta property="og:title" content="鴻才科技股份有限公司" />
+  <meta name="description" content="鴻才科技，在近十五年致力於企業打造專屬的安全軟體，服務適用產業包含政府單位到連鎖業等，針對各場域、物品、設備進行檢核稽查等系統建置。">
+  <meta name="keywords" content="巡檢管理系統,承攬商管理系統,設備維護管理系統,行動工安稽核系統,客製安全軟體">
+  <meta property="og:description" content="鴻才科技，在近十五年致力於企業打造專屬的安全軟體，服務適用產業包含政府單位到連鎖業等，針對各場域、物品、設備進行檢核稽查等系統建置。" />
+  <meta property="og:url" content="https://www.httc.com.tw/" />
+  <meta property="og:image" content="assets/img/demo/628x628-logo.png" />
+  <meta property="og:type" content="website" />
+  <!-- END -->
+  <meta name="format-detection" content="telephone=no">
+  <!-- Stylesheets
+  ============================================= -->
+  <link rel="canonical" href="" />
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="assets/img/demo/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/img/demo/favicon.ico">
+  <!-- Css -->
+  <!-- ↓↓↓基底檔案↓↓↓↓ -->
+  <link href="assets/css/main1.css" rel="stylesheet">
+  <!-- ↓↓↓區塊化檔案↓↓↓↓ -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/about.css" rel="stylesheet" />
+  <link href="assets/css/album.css" rel="stylesheet" />
+  <link href="assets/css/contact.css" rel="stylesheet" />
+  <link href="assets/css/index.css" rel="stylesheet" />
+  <link href="assets/css/link.css" rel="stylesheet" />
+  <link href="assets/css/news.css" rel="stylesheet" />
+  <link href="assets/css/privacy.css" rel="stylesheet" />
+  <link href="assets/css/product.css" rel="stylesheet" />
+  <link href="assets/css/service.css" rel="stylesheet" />
+  <link href="assets/css/cart-all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body class="preloader-deactive">
+  <div style="overflow-x: hidden;">
+    <!-- :: loading 區塊 -->
+    <div class="preloader_10" id="preloader">
+      <div class="preloader_10__inner">
+        <span class="preloader_10__dot"></span>
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- :: header 區塊 -->
+    <header class="header_10">
+      <div class="header_10__header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 hidden-md-down p-0">
+              <div class="header_10__contact-top">
+                <span><a href="tel:07-312-8195"><i class="fas fa-phone-alt"></i><p>電話</p>07-312-8195</a></span>
+              </div>
+            </div>
+            <div class="col-lg-4 hidden-md-down p-0">
+              <div class="header_10__contact-top">
+                <span><a href="https://goo.gl/maps/gBZgWSaZoPBCVted8"><i class="fas fa-map-marker-alt"></i><p>地址</p>高雄市三民區博愛一路27號12樓</a></span>
+              </div>
+            </div>
+            <div class="col-lg-6 text-md-end text-center p-0">
+              <div class="header_10__contact-top">
+                <!-- 新增語系 -->
+                <span class="language">
+                  <a href="e-product_info_gas.html"><li>English</li></a>
+                  <a href="product_info_gas.html"><li class="lang">中文</li></a>
+                </span>
+                <span><a href="#"><i class="fas fa-clock"></i><p>營業時間</p>09:00~18:30</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_10__header-middle sticky-header hidden-md-down">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col col-md-2 col-sm-12 header_10__top logo">
+              <div class="header_10__header-logo-area">
+                <a href="index.html">
+                  <img class="logo-main" src="assets/img/demo/header-logo.png" alt="size_331X52">
+                </a>
+              </div>
+            </div>
+            <div class="col col-8 position-relative header_10__top">
+              <div class="header_10__header-align justify-content-end">
+                <div class="header_10__header-navigation-area hidden-md-down">
+                  <ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement" class="header_10__main-menu nav">
+                    <li itemprop="name"><a itemprop="url" href="news_list.html">最新消息</a></li>
+                    <li itemprop="name" content="關於我們" class="header_10__has-submenu"><a itemprop="url" href="about.html">關於我們</a>
+                      <ul class="header_10__submenu-nav">
+                        <li itemprop="name"><a itemprop="url" href="about.html">關於鴻才</a></li>
+                        <li itemprop="name"><a itemprop="url" href="about2.html">經營理念</a></li>
+                        <li itemprop="name"><a itemprop="url" href="about3.html">核心技術/創新研發</a></li>
+                        <li itemprop="name"><a itemprop="url" href="about4.html">營運項目</a></li>
+                      </ul>
+                    </li>
+                    <li itemprop="name" content="產品服務" class="header_10__has-submenu"><a itemprop="url" href="product_list.html">產品服務</a>
+                      <ul class="header_10__submenu-nav">
+                        <li itemprop="name"><a itemprop="url" href="product_info_grided.html">導引式巡檢管理系統</a></li>
+                        <li itemprop="name"><a itemprop="url" href="product_info_equipent.html">設備維護管理系統</a></li>
+                        <li itemprop="name"><a itemprop="url" href="product_info_contract.html">承攬商管理系統</a></li>
+                        <li itemprop="name"><a itemprop="url" href="product_info_ehs.html">行動工安稽核系統</a></li>
+                        <li itemprop="name"><a itemprop="url" href="product_info_machine.html">機械設備入廠行動化管理系統</a></li>
+                        <li itemprop="name"><a itemprop="url" href="product_info_gas.html">氣體鋼瓶管理系統</a></li>
+                      </ul>
+                    </li>
+                    <li itemprop="name" content="解決方案" class="header_10__has-submenu"><a itemprop="url" href="service_list.html">解決方案</a>
+                      <ul class="header_10__submenu-nav">
+                        <li itemprop="name"><a itemprop="url" href="service_info_aip.html">自動檢查</a></li>
+                        <li itemprop="name"><a itemprop="url" href="service_info_smsa.html">巡查管理及主管稽查</a></li>
+                        <li itemprop="name"><a itemprop="url" href="service_info_fire.html">消防防護計畫及檢查</a></li>
+                        <li itemprop="name"><a itemprop="url" href="service_info_eia.html">設備巡檢行動化</a></li>
+                        <li itemprop="name"><a itemprop="url" href="service_info_scam.html">工地承攬商管理系統</a></li>
+                        <li itemprop="name"><a itemprop="url" href="service_info_fcm.html">工廠承攬商管理系統</a></li>
+                        <li itemprop="name"><a itemprop="url" href="service_info_ssam.html">行動工安稽核系統</a></li>
+                        <li itemprop="name"><a itemprop="url" href="service_info_eiepm.html">企業自主防疫管理</a></li>
+                      </ul>
+                    </li>
+                    <li itemprop="name" content="系統整合" class="header_10__has-submenu"><a itemprop="url" href="#">系統整合</a>
+                      <ul class="header_10__submenu-nav">
+                        <li itemprop="name"><a itemprop="url" href="agent.html">硬體代理</a></li>
+                        <li itemprop="name"><a itemprop="url" href="si_info_risk.html">高危險施工督工系統</a></li>
+                        <li itemprop="name"><a itemprop="url" href="si_info_3d.html">3D圖資平台</a></li>
+                      </ul>
+                    </li>
+                    <li itemprop="name"><a itemprop="url" href="contact.html">聯絡我們</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="responsive-header">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-sm-2 col-3 justify-content-start">
+              <div class="header-item">
+                <div class="header-logo-area">
+                  <a href="index.html">
+                    <img class="logo-main" src="assets/img/demo/header-logo.png" alt="size_90X90">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-9">
+              <div class="header-item justify-content-end">
+                <!-- 新增語系rwd -->
+                <div class="header_10__lang">
+                  <span class="language">
+                    <a href="e-product_info_gas.html"><li>EN</li></a>
+                    <a href="product_info_gas.html"><li class="lang">中</li></a>
+                  </span>
+                </div>
+                <button class="btn-menu" type="button"><i class="fas fa-bars"></i></button>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="responsive-search-content">
+                <form action="#" method="get">
+                  <div class="form-input-item">
+                    <input type="text" name="srch_title" placeholder="找找看 ...">
+                    <button type="submit" class="btn-src">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <aside class="off-canvas-wrapper">
+      <div class="off-canvas-inner">
+        <div class="off-canvas-overlay"></div>
+        <div class="off-canvas-content">
+          <div class="off-canvas-header">
+            <div class="close-action">
+              <button class="btn-menu-close">menu<i class="icon-arrow-left"></i></button>
+            </div>
+          </div>
+          <div class="off-canvas-item">
+            <div class="res-mobile-menu menu-active-one">
+              <div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="breadcrumb_6" style="background-image: url(assets/img/demo/page/1920X300-gas.jpg)" alt="size_1920X300">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h1 class="breadcrumb_6__title">氣體鋼瓶管理系統</h1>
+              <nav class="breadcrumb_6__inner">
+                <ul class="breadcrumb_6__list">
+                  <li><a href="index.html">首頁<i class="fas fa-angle-right"></i></a></li>
+                  <li><a href="product_list.html">產品服務<i class="fas fa-angle-right"></i></a></li>
+                  <li class="breadcrumb_6__current">氣體鋼瓶管理系統</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- :: 產品主選單 -->
+      <section class="product_info_6_h">
+        <div class="container-fluid p-0">
+          <ul class="product_info_6_h__nav">
+            <li class="product_info_6_h__nav-inner"><a href="#Help">如何協助企業</a></li>
+            <li class="product_info_6_h__nav-inner"><a href="#Design">設計理念</a></li>
+            <li class="product_info_6_h__nav-inner"><a href="#Function">系統概要</a></li>
+            <li class="product_info_6_h__nav-inner"><a href="#Feature">產品說明</a></li>
+            <li class="product_info_6_h__nav-inner"><a href="#Application">應用層面</a></li>
+          </ul>
+        </div>
+      </section>
+      <!-- :: 如何協助企業 -->
+      <section id="Help" class="product_info_6_1 sec-padding" style="background-image: url(assets/img/demo/product/product_info_6_1_bg.jpg);">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-4 wow fadeInLeft" data-wow-delay="0.0s" data-wow-duration="1.5s">
+              <div class="product_info_6_1__section-title">
+                <h3 class="product_info_6_1__section-title-inner">如何協助企業</h3>
+                <h3 class="product_info_6_1__section-title-inner-en">How To Help Businesses</h3>
+              </div>
+            </div>
+            <div class="col-lg-8 wow fadeInRight" data-wow-delay="0.0s" data-wow-duration="1.5s">
+              <div class="product_info_6_1__disc">
+                <p>鴻才特別針對氣體產業的需求，推出解決方案「氣體鋼瓶管理系統」，將氣體產業之標準流程模組化功能，協助您輕鬆管理公司帳務，降低庫存與鋼瓶的損失率，如此優秀的系統是企業賺錢與管理的最佳招財氣幫手。</p>
+              </div> 
+            </div>     
+          </div>
+        </div>
+      </section>
+      <!-- :: 設計理念 -->
+      <section id="Design" class="product_info_6_2">
+        <img alt="" class="product_info_6_2__deco-1 wow rotateInDownLeft" data-wow-delay="0.2s" data-wow-duration="1.5s" src="assets/img/demo/index/index_6_1-deco1.png">
+        <img alt="" class="product_info_6_2__deco-2 wow rotateInDownRight" data-wow-delay="0.2s" data-wow-duration="1.5s" src="assets/img/demo/index/index_6_1-deco2.png">
+        <div class="container">
+          <div class="product_info_6_2__wrap wow zoomIn" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <div class="product_info_6_2__section-title">
+              <h3 class="product_info_6_2__section-title-inner">設計理念</h3>
+              <h3 class="product_info_6_2__section-title-inner-en">Design Concept</h3>
+            </div>
+            <!-- 氣體鋼瓶_理念-內容 -->
+            <div class="row align-items-center">
+              <div class="col-lg-3 col-md-12 order-lg-1 order-2 wow fadeInRight" data-wow-delay="0.5s" data-wow-duration="1.5s">
+                <div class="product_info_6_2__content gas">
+                  <div class="gas_box">
+                    <p>WEB提供多工連線協同作業，可依不同身分設定權限維護。</p>
+                  </div>
+                  <div class="gas_box">
+                    <p>Windows視窗作業環境，可支援最新作業系統。</p>
+                  </div>
+                  <div class="gas_box">
+                    <p>提供電子發票作業，可讓流程更便捷。</p>
+                  </div>
+                  <div class="gas_box">
+                    <p>進入E化系統，可追蹤鋼瓶流向做更完善之管理。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+                <img class="gas_img" src="assets/img/demo/product/gas/design.png">
+              </div>
+              <div class="col-lg-3 col-md-12 order-lg-3 order-2 wow fadeInLeft" data-wow-delay="0.5s" data-wow-duration="1.5s">
+                <div class="product_info_6_2__content gas">
+                  <div class="gas_box">
+                    <p>系統提供鋼瓶進出即時通知，可降低誤差值。</p>
+                  </div>
+                  <div class="gas_box">
+                    <p>歷史報價完整記錄，可作為業者與廠商間再次報價依據。</p>
+                  </div> 
+                  <div class="gas_box">
+                    <p>本系統已進行專利申請中，專業團隊提供完整服務。</p>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- :: 引言 -->
+      <section class="product_info_6_2__add wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s" style="background-image: url(assets/img/demo/product/gas/introduction.jpg); display: none;">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="product_info_6_2__add-blockquote">
+                <blockquote>
+                  <p>氣體安全不容忽視,鋼瓶管理無微不至</p>
+                </blockquote>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </section>
+      <!-- :: 系統概要 -->
+      <section id="Function" class="product_info_6_4 sec-padding" data-wow-delay="0.0s" data-wow-duration="1.5s">
+        <div class="container">
+          <div class="product_info_6_4__section-title wow fadeInLeft" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <h3 class="product_info_6_4__section-title-inner">系統概要</h3>
+            <h3 class="product_info_6_4__section-title-inner-en">System Overview</h3>
+          </div>
+          <div class="row">
+            <!-- 系統概要1 -->
+            <div class="col-lg-3 col-md-6 col-gas-format pb-30">
+              <div class="product_info_6_4__format_gas-funtion wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+                <h6 class="product_info_6_4__format_gas-funtion-title">銷貨管理</h6>
+                <div class="product_info_6_4__format_gas-funtion-disc">
+                  <ul>
+                    <li>銷貨作業</li>
+                    <li>明細備注清單</li>
+                    <li>銷貨日/月報表</li>
+                    <li>銷售總表(客戶、商品)</li>
+                    <li>銷貨明細</li>
+                  </ul>
+                </div>  
+              </div>
+            </div>
+            <!-- 系統概要2 -->
+            <div class="col-lg-3 col-md-6 col-gas-format pb-30">
+              <div class="product_info_6_4__format_gas-funtion wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.5s">
+                <h6 class="product_info_6_4__format_gas-funtion-title">進貨管理</h6>
+                <div class="product_info_6_4__format_gas-funtion-disc">
+                  <ul>
+                    <li>進貨作業</li>
+                    <li>鋼瓶借入作業</li>
+                    <li>銷貨日/月報表</li>
+                  </ul>
+                </div>  
+              </div>
+            </div>
+            <!-- 系統概要3 -->
+            <div class="col-lg-3 col-md-6 col-gas-format pb-30">
+              <div class="product_info_6_4__format_gas-funtion wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1.5s">
+                <h6 class="product_info_6_4__format_gas-funtion-title">庫存管理</h6>
+                <div class="product_info_6_4__format_gas-funtion-disc">
+                  <ul>
+                    <li>進貨管理</li>
+                    <li>商品管理</li>
+                    <li>庫存調整</li>
+                    <li>月盤點作業</li>
+                  </ul>
+                </div>  
+              </div>
+            </div>
+            <!-- 系統概要4 -->
+            <div class="col-lg-3 col-md-6 col-gas-format pb-30">
+              <div class="product_info_6_4__format_gas-funtion wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1.5s">
+                <h6 class="product_info_6_4__format_gas-funtion-title">帳款管理</h6>
+                <div class="product_info_6_4__format_gas-funtion-disc">
+                  <ul>
+                    <li>應收/應付沖帳作業</li>
+                    <li>應收/應付對帳單</li>
+                    <li>應收/應付對帳匯總表</li>
+                  </ul>
+                </div>  
+              </div>
+            </div>
+            <!-- 系統概要5 -->
+            <div class="col-lg-3 col-md-6 col-gas-format pb-30">
+              <div class="product_info_6_4__format_gas-funtion wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="1.5s">
+                <h6 class="product_info_6_4__format_gas-funtion-title">鋼瓶管理</h6>
+                <div class="product_info_6_4__format_gas-funtion-disc">
+                  <ul>
+                    <li>鋼瓶借出/收回</li>
+                    <li>鋼瓶借入/退回</li>
+                    <li>自備瓶入庫調換</li>
+                    <li>鋼瓶檢驗</li>
+                  </ul>
+                </div>  
+              </div>
+            </div>
+            <!-- 系統概要6 -->
+            <div class="col-lg-3 col-md-6 col-gas-format pb-30">
+              <div class="product_info_6_4__format_gas-funtion wow fadeInUp" data-wow-delay="1s" data-wow-duration="1.5s">
+                <h6 class="product_info_6_4__format_gas-funtion-title">發票管理</h6>
+                <div class="product_info_6_4__format_gas-funtion-disc">
+                  <ul>
+                    <li>完整發票管理功能</li>
+                    <li>掌控銷項及進項稅額</li>
+                  </ul>
+                </div>  
+              </div>
+            </div>
+            <!-- 系統概要7 -->
+            <div class="col-lg-3 col-md-6 col-gas-format pb-30">
+              <div class="product_info_6_4__format_gas-funtion wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1.5s">
+                <h6 class="product_info_6_4__format_gas-funtion-title">銷售流量分析</h6>
+                <div class="product_info_6_4__format_gas-funtion-disc">
+                  <ul>
+                    <li>日銷售曲線圖</li>
+                    <li>月銷售長條圖</li>
+                    <li>未付與應付長條圖</li>
+                    <li>未交易提示</li>
+                  </ul>
+                </div>  
+              </div>
+            </div>
+            <!-- 系統概要8 -->
+            <div class="col-lg-3 col-md-6 col-gas-format pb-30">
+              <div class="product_info_6_4__format_gas-funtion wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1.5s">
+                <h6 class="product_info_6_4__format_gas-funtion-title">客製化的e化報表</h6>
+                <div class="product_info_6_4__format_gas-funtion-disc">
+                  <ul>
+                    <li>客製化報表</li>
+                    <li>e化報表整齊一致易閱讀</li>
+                  </ul>
+                </div>  
+              </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+      <!-- :: 產品說明 -->
+      <section id="Feature" class="product_info_6_5 sec-padding" data-wow-delay="0.0s" data-wow-duration="1.5s">
+        <div class="product_info_6_5__section-title wow fadeInDown" data-wow-delay="0.0s" data-wow-duration="1.5s">
+          <h3 class="product_info_6_5__section-title-inner">產品說明</h3>
+          <h3 class="product_info_6_5__section-title-inner-en">Product Description</h3>
+        </div>
+        <div class="container">
+          <!-- 特色1 -->
+          <div class="product_info_6_5__details-item bl_product_item wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <div class="row row--prod align-items-center">
+              <!-- 輪播圖 -->
+              <div class="col-lg-6 col-md-12">
+                <div class="pr-0 pr-sm-0">
+                  <div class="product_6__product-thumb">
+                    <div class="lightbox">
+                      <a class="lightbox-image machine" data-fancybox="gallery" href="assets/img/demo/product/gas/800X800-1.png">
+                        <img src="assets/img/demo/product/gas/800X800-1.png" alt="size_800X800">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 輪播圖文字 -->
+              <div class="col-lg-6 col-md-12">
+                <div class="product-single-info mt-md-30">
+                  <div class="product_6_5__product-intro-wrapper">
+                    <h1 class="title">快速查看銷貨管理</h1>
+                    <div class="product_6_5__intro">
+                      <p>藉由明細備註清單可以讓您在進行銷貨作業時更加清楚銷貨狀態，並且產出日/月報表。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 特色1 End -->
+          <!-- 特色2 -->
+          <div class="product_info_6_5__details-item bl_product_item wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <div class="row row--prod align-items-center">
+              <!-- 輪播圖 -->
+              <div class="col-lg-6 col-md-12">
+                <div class="pr-0 pr-sm-0">
+                  <div class="product_6__product-thumb">
+                    <div class="lightbox">
+                      <a class="lightbox-image machine" data-fancybox="gallery" href="assets/img/demo/product/gas/800X800-2.png">
+                        <img src="assets/img/demo/product/gas/800X800-2.png" alt="size_800X800">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 輪播圖文字 -->
+              <div class="col-lg-6 col-md-12">
+                <div class="product-single-info mt-md-30">
+                  <div class="product_6_5__product-intro-wrapper">
+                    <h1 class="title">鋼瓶追蹤管理</h1>
+                    <div class="product_6_5__intro">
+                      <p>讓使用者追蹤鋼瓶的流向最新狀態，即時掌握鋼瓶借出與收回資訊，節省鋼瓶追蹤與鋼瓶檢驗管理費用，進而幫助企業降低鋼瓶損失呆帳。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 特色2 End -->
+          <!-- 特色3 -->
+          <div class="product_info_6_5__details-item bl_product_item wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <div class="row row--prod align-items-center">
+              <!-- 輪播圖 -->
+              <div class="col-lg-6 col-md-12">
+                <div class="pr-0 pr-sm-0">
+                  <div class="product_6__product-thumb">
+                    <div class="lightbox">
+                      <a class="lightbox-image machine" data-fancybox="gallery" href="assets/img/demo/product/gas/800X800-3.png">
+                        <img src="assets/img/demo/product/gas/800X800-3.png" alt="size_800X800">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 輪播圖文字 -->
+              <div class="col-lg-6 col-md-12">
+                <div class="product-single-info mt-md-30">
+                  <div class="product_6_5__product-intro-wrapper">
+                    <h1 class="title">清楚確認帳款管理</h1>
+                    <div class="product_6_5__intro">
+                      <p>系統結合會計記帳整合功能，清楚掌握淨銷存及帳務支付方式。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 特色3 End -->
+          <!-- 特色4 -->
+          <div class="product_info_6_5__details-item bl_product_item wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <div class="row row--prod align-items-center">
+              <!-- 輪播圖 -->
+              <div class="col-lg-6 col-md-12">
+                <div class="pr-0 pr-sm-0">
+                  <div class="product_6__product-thumb">
+                    <div class="lightbox">
+                      <a class="lightbox-image machine" data-fancybox="gallery" href="assets/img/demo/product/gas/800X800-4.png">
+                        <img src="assets/img/demo/product/gas/800X800-4.png" alt="size_800X800">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 輪播圖文字 -->
+              <div class="col-lg-6 col-md-12">
+                <div class="product-single-info mt-md-30">
+                  <div class="product_6_5__product-intro-wrapper">
+                    <h1 class="title">客製化的e化報表</h1>
+                    <div class="product_6_5__intro">
+                      <p>帳務報表可依企業需求進行客製化設計。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 特色4 End -->
+        </div>
+      </section>
+      <!-- :: 應用層面 -->
+      <section id="Application" class="product_info_6_6 sec-padding" data-wow-delay="0.0s" data-wow-duration="1.5s">
+        <div class="container">
+          <div class="product_info_6_6__section-title wow fadeInLeft" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <h3 class="product_info_6_6__section-title-inner">應用層面</h3>
+            <h3 class="product_info_6_6__section-title-inner-en">Application Level</h3>
+          </div>
+          <div class="product_info_6_6__application">
+            <div class="product_info_6_6__application-content">
+              <div class="product_info_6_6__application_gas-disc wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+                <div class="row">
+                  <!-- 應用1 -->
+                  <div class="col-lg-3 col-md-6 col-sm-6 pb-30">
+                    <div class="product_info_6_6__application_gas-box">
+                      <div class="product_info_6_6__application_gas-box-img">
+                        <img src="assets/img/demo/product/gas/application1.png" alt="size_120X120">
+                      </div>
+                      <div class="product_info_6_6__application_gas-box-text">
+                        <div class="avia-arrow"></div>
+                        <div class="title">氣體產業<span>(盤商、零售業者)</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 應用2 -->
+                  <div class="col-lg-3 col-md-6 col-sm-6 pb-30">
+                    <div class="product_info_6_6__application_gas-box">
+                      <div class="product_info_6_6__application_gas-box-img">
+                        <img src="assets/img/demo/product/gas/application2.png" alt="size_120X120">
+                      </div>
+                      <div class="product_info_6_6__application_gas-box-text">
+                        <div class="avia-arrow"></div>
+                        <div class="title">氣體分裝業</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 應用3 -->
+                  <div class="col-lg-3 col-md-6 col-sm-6 pb-30">
+                    <div class="product_info_6_6__application_gas-box">
+                      <div class="product_info_6_6__application_gas-box-img">
+                        <img src="assets/img/demo/product/gas/application3.png" alt="size_120X120">
+                      </div>
+                      <div class="product_info_6_6__application_gas-box-text">
+                        <div class="avia-arrow"></div>
+                        <div class="title">瓦斯行</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 應用4 -->
+                  <div class="col-lg-3 col-md-6 col-sm-6 pb-30">
+                    <div class="product_info_6_6__application_gas-box">
+                      <div class="product_info_6_6__application_gas-box-img">
+                        <img src="assets/img/demo/product/gas/application4.png" alt="size_120X120">
+                      </div>
+                      <div class="product_info_6_6__application_gas-box-text">
+                        <div class="avia-arrow"></div>
+                        <div class="title">特殊氣體銷售行</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </section>
+
+    </main>
+    <footer class="footer_6">
+      <div class="container">
+        <div class="pb-80 pb-md-20">
+          <div class="row justify-content-between">
+            <div class="col-lg-2 col-md-12">
+              <div class="footer_6__widget-item">
+                <div class="footer_6__about-widget">
+                  <div class="footer_6__footer-logo">
+                    <a href="index.html">
+                      <img class="logo-light" src="assets/img/demo/footer-logo.png" alt="logo" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="footer_6__widget-item">
+                <h3 class="footer_6__title">公司簡介</h3>
+                <div class="widget-desc">
+                  <p>導引式巡檢管理系統、設備維護管理系統、承攬商管理系統、行動工安稽核系統、機械設備入廠行動化管理系統、氣體鋼瓶管理系統、自動檢查、巡查管理及主管稽查、消防防護計畫及檢查、設備巡檢行動化、工地承攬商管理系統、工廠承攬商管理系統、企業自主防疫管理、高危險施工督工系統、3D圖資平台</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <div class="footer_6__widget-item">
+                <h3 class="footer_6__title">網站地圖</h3>
+                <div>
+                  <ul class="footer_6__nav-menu">
+                    <li><a href="about.html">關於我們</a></li>
+                    <li><a href="news_list.html">最新消息</a></li>
+                    <li><a href="product_list.html">產品服務</a></li>
+                    <li><a href="service_list.html">解決方案</a></li>
+                    <li><a href="agent.html">系統整合</a></li>
+                    <li><a href="contact.html">聯絡我們</a></li>
+                    <li><a href="privacy.html">隱私權政策</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="footer_6__widget-item">
+                <h3 class="footer_6__title">聯絡我們</h3>
+                <div>
+                  <ul class="footer_6__contact-list">
+                    <p style="margin-bottom: 15px;">高雄總公司</p>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="tel:07-312-8195"><i class="footer_6__contact-icon fas fa-phone-alt" aria-hidden="true"></i>07-312-8195</a>
+                    </li>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="https://goo.gl/maps/MiyxiJZinLTVWSQ8A" target="_bank"><i class="footer_6__contact-icon fas fa-map-marker-alt" aria-hidden="true"></i><span>高雄市三民區博愛一路27號12樓</span></a>
+                    </li>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="tel:07-323-2157"><i class="footer_6__contact-icon fas fa-fax" aria-hidden="true"></i>07-323-2157</a>
+                    </li>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="mailto:httc@mail.httc.com.tw"><i class="footer_6__contact-icon fas fa-envelope" aria-hidden="true"></i>httc@mail.httc.com.tw</a>
+                    </li>
+                    <p style="margin-bottom: 15px;">桃園辦事處</p>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="tel:03-356-0700"><i class="footer_6__contact-icon fas fa-phone-alt" aria-hidden="true"></i>03-356-0700</a>
+                    </li>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="https://maps.app.goo.gl/un9osynrWNyvvqs1A" target="_bank"><i class="footer_6__contact-icon fas fa-map-marker-alt" aria-hidden="true"></i><span>桃園市中壢區致祥一街238巷65號1樓</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_6__footer-bottom">
+        <div class="container">
+          <div class="footer_6__bottom-txt">
+            <p class="footer_6__copyright">鴻才科技股份有限公司 © 2023Copyright.All Right Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="scroll-to-top" class="footer_6__scroll-to-top"><span class="fas fa-angle-up"></span></div>
+  </div>
+  <!-- #wrapper end -->
+
+
+
+  <!-- ↓↓↓基底檔案↓↓↓↓ -->
+  <script src="assets/js/main1.js"></script>
+  <!-- ↓↓↓區塊化檔案↓↓↓↓ -->
+  <script src="assets/js/custom.js"></script>
+  <script>
+  //思源黑體非同步載入
+  var cb = function() {
+    var a = document.createElement('link');
+    a.rel = 'stylesheet';
+    a.href = 'https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,600,700,900&display=swap';;
+
+    var z = document.getElementsByTagName('head')[0];
+    z.parentNode.insertBefore(a, z);
+  };
+  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+    webkitRequestAnimationFrame || msRequestAnimationFrame;
+  if (raf) raf(cb);
+  else window.addEventListener('load', cb);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Core Technology | Httc</title>
+  <!-- FB用，也會影響SEO分數 -->
+  <meta property="og:title" content="鴻才科技股份有限公司" />
+  <meta name="description" content="鴻才科技，在近十五年致力於企業打造專屬的安全軟體，服務適用產業包含政府單位到連鎖業等，針對各場域、物品、設備進行檢核稽查等系統建置。">
+  <meta name="keywords" content="巡檢管理系統,承攬商管理系統,設備維護管理系統,行動工安稽核系統,客製安全軟體">
+  <meta property="og:description" content="鴻才科技，在近十五年致力於企業打造專屬的安全軟體，服務適用產業包含政府單位到連鎖業等，針對各場域、物品、設備進行檢核稽查等系統建置。" />
+  <meta property="og:url" content="https://www.httc.com.tw/" />
+  <meta property="og:image" content="assets/img/demo/628x628-logo.png" />
+  <meta property="og:type" content="website">
+  <!-- END -->
+  <meta name="format-detection" content="telephone=no">
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="assets/img/demo/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/img/demo/favicon.ico">
+  <!-- Css -->
+  <!-- ↓↓↓基底檔案↓↓↓↓ -->
+  <link href="assets/css/main1.css" rel="stylesheet" />
+  <!-- ↓↓↓區塊化檔案↓↓↓↓ -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/about.css" rel="stylesheet" />
+  <link href="assets/css/album.css" rel="stylesheet" />
+  <link href="assets/css/contact.css" rel="stylesheet" />
+  <link href="assets/css/index.css" rel="stylesheet" />
+  <link href="assets/css/link.css" rel="stylesheet" />
+  <link href="assets/css/news.css" rel="stylesheet" />
+  <link href="assets/css/privacy.css" rel="stylesheet" />
+  <link href="assets/css/product.css" rel="stylesheet" />
+  <link href="assets/css/service.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="en-version" style="overflow-x: hidden;">
+    <!-- :: loading 區塊 -->
+    <div class="preloader_10" id="preloader">
+      <div class="preloader_10__inner">
+        <span class="preloader_10__dot"></span>
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- :: header 區塊 -->
+    <header class="header_10">
+      <div class="header_10__header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 hidden-md-down p-0">
+              <div class="header_10__contact-top">
+                <span><a href="tel:07-312-8195"><i class="fas fa-phone-alt"></i><p>Phone</p>07-312-8195</a></span>
+              </div>
+            </div>
+            <div class="col-lg-5 hidden-md-down p-0">
+              <div class="header_10__contact-top">
+                <span><a href="https://goo.gl/maps/gBZgWSaZoPBCVted8"><i class="fas fa-map-marker-alt"></i><p>Addr</p>Boai 1st Road, Sanmin District, Kaohsiung</a></span>
+              </div>
+            </div>
+            <div class="col-lg-5 text-md-end text-center p-0">
+              <div class="header_10__contact-top">
+                <!-- 新增語系 -->
+                <span class="language">
+                  <a href="e-about3.html"><li>English</li></a>
+                  <a href="about3.html"><li class="lang">中文</li></a>
+                </span>
+                <span><a href="#"><i class="fas fa-clock"></i><p>Time</p>09:00~18:30</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_10__header-middle sticky-header hidden-md-down">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col col-md-2 col-sm-12 header_10__top logo">
+              <div class="header_10__header-logo-area">
+                <a href="e-index.html">
+                  <img class="logo-main" src="assets/img/demo/header-logo.png" alt="size_331X52">
+                </a>
+              </div>
+            </div>
+            <div class="col col-10 position-relative header_10__top">
+              <div class="header_10__header-align justify-content-end">
+                <div class="header_10__header-navigation-area hidden-md-down">
+                  <ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement" class="header_10__main-menu nav">
+                    <li itemprop="name"><a itemprop="url" href="news_list.html">News</a></li>
+                    <li itemprop="name" content="About" class="header_10__has-submenu"><a itemprop="url" href="e-about.html">About</a>
+                      <ul class="header_10__submenu-nav">
+                        <li itemprop="name"><a itemprop="url" href="e-about.html">About Hon-Tsai</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-about2.html">Business Philosophy</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-about3.html">Core Technology</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-about4.html">Operational Items</a></li>
+                      </ul>
+                    </li>
+                    <li itemprop="name" content="Product" class="header_10__has-submenu"><a itemprop="url" href="e-product_list.html">Products</a>
+                      <ul class="header_10__submenu-nav">
+                        <li itemprop="name"><a itemprop="url" href="e-product_info_grided.html">Guided Patrol & Inspection system</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-product_info_equipent.html">Equipment Maintenance Management System</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-product_info_contract.html">Contractor Access Management System</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-product_info_ehs.html">Mobile EHS and Quality Inspection System</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-product_info_machine.html">On-Site Machinery and Equipment Mobile Management System</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-product_info_gas.html">Gas Cylinder Management System</a></li>
+                      </ul>
+                    </li>
+                    <li itemprop="name" content="Solution" class="header_10__has-submenu"><a itemprop="url" href="e-service_list.html">Solution</a>
+                      <ul class="header_10__submenu-nav">
+                        <li itemprop="name"><a itemprop="url" href="e-service_info_aip.html">Self-inspection</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-service_info_smsa.html">Duty Supervision and Inspection</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-service_info_fire.html">Fire Protection Plan and Inspection</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-service_info_eia.html">Equipment Inspection Mobilization</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-service_info_scam.html">Occupational Safety and Health Smart Management System</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-service_info_fcm.html">Factory Contractor Entry Management</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-service_info_ssam.html">Construction Site Safety Audit Management</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-service_info_eiepm.html">Enterprise Self-Managed Epidemic Prevention</a></li>
+                      </ul>
+                    </li>
+                    <li itemprop="name" content="System integration" class="header_10__has-submenu"><a itemprop="url" href="#">System integration</a>
+                      <ul class="header_10__submenu-nav">
+                        <li itemprop="name"><a itemprop="url" href="e-agent.html">Agent</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-si_info_risk.html">High-Risk Construction Supervisor System</a></li>
+                        <li itemprop="name"><a itemprop="url" href="e-si_info_3d.html">3D Mapping Platform</a></li>
+                      </ul>
+                    </li>
+                    <li itemprop="name"><a itemprop="url" href="e-contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="responsive-header">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-sm-2 col-3 justify-content-start">
+              <div class="header-item">
+                <div class="header-logo-area">
+                  <a href="e-index.html">
+                    <img class="logo-main" src="assets/img/demo/header-logo.png" alt="size_90X90">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-9">
+              <div class="header-item justify-content-end">
+                <!-- 新增語系rwd -->
+                <div class="header_10__lang">
+                  <span class="language">
+                    <a href="e-about3.html"><li>EN</li></a>
+                    <a href="about3.html"><li class="lang">中</li></a>
+                  </span>
+                </div>
+                <button class="btn-menu" type="button"><i class="fas fa-bars"></i></button>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="responsive-search-content">
+                <form action="#" method="get">
+                  <div class="form-input-item">
+                    <input type="text" name="srch_title" placeholder="找找看 ...">
+                    <button type="submit" class="btn-src">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <aside class="off-canvas-wrapper">
+      <div class="off-canvas-inner">
+        <div class="off-canvas-overlay"></div>
+        <div class="off-canvas-content">
+          <div class="off-canvas-header">
+            <div class="close-action">
+              <button class="btn-menu-close">menu<i class="icon-arrow-left"></i></button>
+            </div>
+          </div>
+          <div class="off-canvas-item">
+            <div class="res-mobile-menu menu-active-one">
+              <div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="breadcrumb_6" style="background-image: url(assets/img/demo/page/1920X300-about.jpg)" alt="size_1920X300">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h1 class="breadcrumb_6__title">Core Technology</h1>
+              <nav class="breadcrumb_6__inner">
+                <ul class="breadcrumb_6__list">
+                  <li><a href="e-index.html">Home<i class="fas fa-angle-right"></i></a></li>
+                  <li class="breadcrumb_6__current">Core Technology</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- :: 核心技術 -->
+      <section class="about_6_5">
+        <div class="row">
+          <div class="col-lg-6 order-lg-1 order-2">
+            <div class="about_6_5__img-wrap wow fadeInLeft" data-wow-delay="0.0s" data-wow-duration="1.5s" style="background-image: url(assets/img/demo/about/about_6_5-bg.jpg);">
+              <img class="about_6_5__img" src="assets/img/demo/about/en/about_6_5.png">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-2 order-1">
+            <div class="about_6_5__content wow fadeInRight" data-wow-delay="0.0s" data-wow-duration="1.5s">
+              <div class="about_6_5__section-title">
+                <h3 class="about_6_5__section-title-inner">Core Technology</h3>
+                <!-- <h3 class="about_6_5__section-title-inner-en">Core Technology</h3> -->
+              </div>
+              <div class="about_6_5__text">
+                <p><!-- During our company's early stages, the main focus was marketing in the petrochemical industry. However, in recent years, new businesses have been developed in the construction industry, optoelectronics (electronics) industry, and the medical system. If we can effectively use checklists based on quality principles to provide real-time discovery and reporting for hazard elimination, the value and contribution to society are of utmost importance.  -->Our company has developed a "Safety Management" platform, which provides cloud service solutions and aims to establish "self-inspection" tailored to various industries, customizing processes and reports for individual companies. We will continue to develop multiple APIs for "heterogeneous interface integration."</p>
+                <p>The overall system uses the "backend management module" as the backend and can be installed on various smart mobile devices with "frontend function modules" and "mobile positioning modules." It combines inspection content with various industries or company-specific "inspection management modules." Data mining techniques derive intelligent dispatching or BI digital dashboards, providing more precise system feedback for AI analysis.</p>
+                <p>The Inspection Management System is divided into four major modules: frontend function module, backend management module, safety audit module, and IoT sensor module. These modules can be customized or enhanced for specific groups depending on the user's needs.</p>
+              </div>  
+            </div>  
+          </div>
+        </div>
+      </section>
+      <!-- :: 四大模組 -->
+      <section class="about_6_6 sec-padding">
+        <div class="container">
+          <div class="about_6_6__section-title wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <h3 class="about_6_6__section-title-inner">Four Modules</h3>
+            <!-- <h3 class="about_6_6__section-title-inner-en">Four Modules</h3> -->
+          </div>
+          <div class="about_6_6__wrap">
+            <!-- 模組1 -->
+            <div class="about_6_6__modle wow fadeInRight" data-wow-delay="0.0s" data-wow-duration="1.5s">
+              <div class="about_6_6__modle-number">
+                <span>01</span>
+              </div>
+              <div class="about_6_6__modle-img-wrap">
+                <img class="about_6_6__modle-img" src="assets/img/demo/about/800X800-5.jpg" alt="size_800X800">
+              </div>
+              <div class="about_6_6__modle-content">
+                <h5 class="about_6_6__modle-content-title">Frontend function module</h5>
+                <h5 class="about_6_6__modle-content-inner">On-site presence, Inspection, Record inquiry, Equipment history, Supervisor inspection, Casual shooting, Work order operation</h5>
+                <p>The frontend function module is based on the on-site work environment of the mobile inspection module. It is executed in line with the decisions made in the backend management module. It provides on-site operators with task guidance and assistance, ensuring tasks are carried out as required. The system uses standardized operational forms.</p>
+              </div>
+            </div>
+            <!-- 模組2 -->
+            <div class="about_6_6__modle wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="1.5s">
+              <div class="about_6_6__modle-number-o">
+                <span>02</span>
+              </div>
+              <div class="about_6_6__modle-content order-md-1 order-sm-2 order-2">
+                <h5 class="about_6_6__modle-content-title">Backend management</h5>
+                <h5 class="about_6_6__modle-content-inner">Account permission management, Working environment management, Schedule plan management, Equipment history management, Module report management, Supervisor sign-off work, Defect improvement work</h5>
+                <p>Based on the hardware requirements of the frontend, relevant parameters are configured in the backend management platform. This includes setting up operator identities and roles, equipment related to the site, procedure development, checklist configuration, and providing standard queries and reports and customized reports.</p>
+              </div>
+              <div class="about_6_6__modle-img-wrap order-md-2 order-sm-1 order-1">
+                <img class="about_6_6__modle-img-o" src="assets/img/demo/about/800X800-6.jpg" alt="size_800X800">
+              </div>
+            </div>
+            <!-- 模組3 -->
+            <div class="about_6_6__modle wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="1.5s">
+              <div class="about_6_6__modle-number">
+                <span>03</span>
+              </div>
+              <div class="about_6_6__modle-img-wrap">
+                <img class="about_6_6__modle-img" src="assets/img/demo/about/800X800-7.jpg" alt="size_800X800">
+              </div>
+              <div class="about_6_6__modle-content">
+                <h5 class="about_6_6__modle-content-title">Safety Audit Module</h5>
+                <h5 class="about_6_6__modle-content-inner">Record Analysis、Exception Reporting、Online Approval、Decision Management</h5>
+                <p>During safety audit operations, data analysis and record retrieval are performed based on the data provided by the inspection tasks recorded in the system. Managers use this data, expertise, and task records to continually strengthen areas with deficiencies and assign tasks accordingly.</p>
+              </div>
+            </div>
+            <!-- 模組4 -->
+            <div class="about_6_6__modle wow fadeInLeft" data-wow-delay="0.6s" data-wow-duration="1.5s">
+              <div class="about_6_6__modle-number-o">
+                <span>04</span>
+              </div>
+              <div class="about_6_6__modle-content order-md-1 order-sm-2 order-2">
+                <h5 class="about_6_6__modle-content-title">IoT Sensor Module</h5>
+                <h5 class="about_6_6__modle-content-inner"></h5>
+                <p>Based on the mobile devices chosen by the client and the frontend function module (GPS, RFID, QRCode), and in collaboration with the network environment provided by the property owner, measurement instruments, gas detectors, and positioning navigation carried during task execution are wirelessly transmitted via the frontend function module (Bluetooth, Wi-Fi, Lo-Ra).</p>
+              </div>
+              <div class="about_6_6__modle-img-wrap order-md-2 order-sm-1 order-1">
+                <img class="about_6_6__modle-img-o" src="assets/img/demo/about/800X800-8.jpg" alt="size_800X800">
+              </div>
+            </div>  
+          </div>
+        </div>
+      </section>
+      <!-- :: 商標專利 -->
+      <section class="about_6_7 sec-padding" style="background-image: url(assets/img/demo/about/about_6_7-bg.jpg)">
+        <div class="container">
+          <div class="about_6_7__section-title wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <h3 class="about_6_7__section-title-inner">License Patent</h3>
+            <!-- <h3 class="about_6_7__section-title-inner-en">Trademark Patent</h3> -->
+          </div>
+          <div class="about_6_7__content">
+            <div class="about_6_7__text wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+              <p>The initial research goal of our company during its establishment was to create a comprehensive inspection system solution to assist petrochemical industry clients in preventing workplace safety incidents. The research strategy aimed to construct a "path" from the present to the future for product and technology development. During project execution, the research and development department continuously received user feedback, consistently developed products to meet the needs of target industries, mastered the critical technologies required for the products, and prepared resources for future investments. The research and development were divided into three phases of comprehensive marketization: the first phase from 2013 to 2015, the second from 2016 to 2019, and the third from 2019 to 2022.</p>
+            </div>  
+            <div class="about_6_7__stage-wrap">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 stage">
+                  <div class="about_6_7__stage wow slideInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+                    <p>First Stage</p>
+                    <h6 class="about_6_7__stage-date">2013-2015 <span>year</span></h6>
+                  </div>  
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 stage">
+                  <div class="about_6_7__stage wow slideInUp" data-wow-delay="0.2s" data-wow-duration="1.5s">
+                    <p>Second Stage</p>
+                    <h6 class="about_6_7__stage-date">2016-2019 <span>year</span></h6>
+                  </div>  
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 stage">
+                  <div class="about_6_7__stage wow slideInUp" data-wow-delay="0.4s" data-wow-duration="1.5s">
+                    <p>Third Stage</p>
+                    <h6 class="about_6_7__stage-date">2019-2023 <span>year</span></h6>
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about_6_7__table wow slideInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <div class="table-responsive">
+              <table style="min-width:1000px;" data-toggle="table" data-sort-name="built" data-sort-order="asc" class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Products</th>
+                    <th>Date</th>
+                    <th>Patent number</th>
+                    <th>Patent name</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a href="e-product_info_grided.html">Guided Patrol & Inspection System</a></td>
+                    <td>2013</td>
+                    <td>New/No.M450023</td>
+                    <td>Patrol attendance management device</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_grided.html">Guided Patrol & Inspection System</a></td>
+                    <td>2013</td>
+                    <td>New/No.M472380、No.M467124</td>
+                    <td>Protection box structure for sensor</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_ehs.html">Mobile EHS and Quality Inspection System</a></td>
+                    <td>2014</td>
+                    <td>New/No.M744004</td>
+                    <td>Mobile Occupational Safety Inspection Device</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_ehs.html">Mobile EHS and Quality Inspection System</a></td>
+                    <td>2014</td>
+                    <td>Utility Model/No.3973637</td>
+                    <td>Mobile Work Safety Inspection Device</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_ehs.html">Mobile EHS and Quality Inspection System</a></td>
+                    <td>2015</td>
+                    <td>Invention/No.I506185</td>
+                    <td>Method for inspecting undergound pipelines</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_grided.html">Guided Patrol & Inspection System</a></td>
+                    <td>2015</td>
+                    <td>Invention/No.I489422</td>
+                    <td>Patrolling Management System</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_grided.html">Guided Patrol & Inspection System</a></td>
+                    <td>2017</td>
+                    <td>New/No.M543408</td>
+                    <td>Autonomous safety inspection system</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_equipent.html">Equipment Maintenance Management System</a></td>
+                    <td>2017</td>
+                    <td>New/No.M543396</td>
+                    <td>Intelligent inspection expert knowledge base system</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_grided.html">Guided Patrol & Inspection System</a></td>
+                    <td>2019</td>
+                    <td>New/No.M586369</td>
+                    <td>Active patrol inspection system</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_contract.html">Contractor Access Management System</a></td>
+                    <td>2019</td>
+                    <td>New/No.M584952</td>
+                    <td>Contractor access management system</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_equipent.html">Equipment Maintenance Management System</a></td>
+                    <td>2021</td>
+                    <td>New/No.M620597</td>
+                    <td>Equipment safety regular-inspection system</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_contract.html">Contractor Access Management System</a></td>
+                    <td>2021</td>
+                    <td>Invention/No.I719449</td>
+                    <td>Contractor access management system</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_contract.html">Contractor Access Management System</a></td>
+                    <td>2022</td>
+                    <td>New/No.110209174</td>
+                    <td>Contractor Worksite Gas Monitoring System</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_contract.html">Contractor Access Management System</a></td>
+                    <td>2023</td>
+                    <td>New/No.M644796</td>
+                    <td>Contractor On-site Mobile Machinery and Equipment Management System</td>
+                  </tr>
+                  <tr>
+                    <td><a href="e-product_info_contract.html">Contractor Access Management System</a></td>
+                    <td>2023</td>
+                    <td>New/No.M645035</td>
+                    <td>High-Risk Construction Supervision System</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="about_6_7__certificate wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-certificate">
+                <div class="about_6_7__img-wrap wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+                  <img class="about_6_7__img" src="assets/img/demo/about/700X1000-1.jpg">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-certificate">
+                <div class="about_6_7__img-wrap wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+                  <img class="about_6_7__img" src="assets/img/demo/about/700X1000-2.jpg">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-certificate">
+                <div class="about_6_7__img-wrap wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+                  <img class="about_6_7__img" src="assets/img/demo/about/700X1000-3.jpg">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-certificate">
+                <div class="about_6_7__img-wrap wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+                  <img class="about_6_7__img" src="assets/img/demo/about/700X1000-4.jpg">
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </section>
+      <!-- :: 企業證書(先隱藏or改放資安證書) -->
+      <section class="about_6_8 sec-padding" style="display: none;">
+        <div class="container">
+          <div class="about_6_8__section-title wow fadeInLeft" data-wow-delay="0.0s" data-wow-duration="1.5s">
+            <h3 class="about_6_8__section-title-inner">企業證書</h3>
+            <h3 class="about_6_8__section-title-inner-en">Enterprise Certificate</h3>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="about_6_8__img-wrap wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+                <img class="about_6_8__img" src="assets/img/demo/about/700X1000-1.jpg">
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="about_6_8__img-wrap wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+                <img class="about_6_8__img" src="assets/img/demo/about/700X1000-2.jpg">
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="about_6_8__img-wrap wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+                <img class="about_6_8__img" src="assets/img/demo/about/700X1000-3.jpg">
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="about_6_8__img-wrap wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="1.5s">
+                <img class="about_6_8__img" src="assets/img/demo/about/700X1000-4.jpg">
+              </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+    </main>
+    <footer class="footer_6">
+      <div class="container">
+        <div class="pb-80 pb-md-20">
+          <div class="row justify-content-between">
+            <div class="col-lg-2 col-md-12">
+              <div class="footer_6__widget-item">
+                <div class="footer_6__about-widget">
+                  <div class="footer_6__footer-logo">
+                    <a href="e-index.html">
+                      <img class="logo-light" src="assets/img/demo/footer-logo.png" alt="logo" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="footer_6__widget-item">
+                <h3 class="footer_6__title">Company Profile</h3>
+                <div class="widget-desc">
+                  <p>Guided Patrol & Inspection system、Equipment Maintenance Management System、Contractor Access Management System、Mobile EHS and Quality Inspection System、On-Site Machinery and Equipment Mobile Management System、Gas Cylinder Management System、System Integration</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <div class="footer_6__widget-item">
+                <h3 class="footer_6__title">Sitemap</h3>
+                <div>
+                  <ul class="footer_6__nav-menu">
+                    <li><a href="e-about.html">About</a></li>
+                    <li><a href="news_list.html">News</a></li>
+                    <li><a href="e-product_list.html">Products</a></li>
+                    <li><a href="e-service_list.html">Solution</a></li>
+                    <li><a href="e-agent.html">System Integration</a></li>
+                    <li><a href="e-contact.html">Contact</a></li>
+                    <li><a href="e-privacy.html">Privacy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="footer_6__widget-item">
+                <h3 class="footer_6__title">Contact</h3>
+                <div>
+                  <ul class="footer_6__contact-list">
+                    <p style="margin-bottom: 15px;">Kaohsiung Office</p>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="tel:07-312-8195"><i class="footer_6__contact-icon fas fa-phone-alt" aria-hidden="true"></i>(+886)07-312-8195</a>
+                    </li>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="https://goo.gl/maps/MiyxiJZinLTVWSQ8A" target="_bank"><i class="footer_6__contact-icon fas fa-map-marker-alt" aria-hidden="true"></i><span>12F,No.27,Boai 1st Road, Sanmin District,Kaohsiung City</span></a>
+                    </li>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="tel:07-323-2157"><i class="footer_6__contact-icon fas fa-fax" aria-hidden="true"></i>07-323-2157</a>
+                    </li>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="mailto:httc@mail.httc.com.tw"><i class="footer_6__contact-icon fas fa-envelope" aria-hidden="true"></i>httc@mail.httc.com.tw</a>
+                    </li>
+                    <p style="margin-bottom: 15px;">Taoyuan Office</p>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="tel:03-356-0700"><i class="footer_6__contact-icon fas fa-phone-alt" aria-hidden="true"></i>(+886)03-356-0700</a>
+                    </li>
+                    <li class="footer_6__contact-item">
+                      <a class="footer_6__contact-link" href="https://maps.app.goo.gl/un9osynrWNyvvqs1A" target="_bank"><i class="footer_6__contact-icon fas fa-map-marker-alt" aria-hidden="true"></i><span>1F,No. 65, Lane 238, Zhixiang 1st Street, Zhongli District, Taoyuan City 320</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_6__footer-bottom">
+        <div class="container">
+          <div class="footer_6__bottom-txt">
+            <p class="footer_6__copyright">Hon-Tsai Technology Co., Ltd. © 2023Copyright.All Right Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="scroll-to-top" class="footer_6__scroll-to-top"><span class="fas fa-angle-up"></span></div>
+  </div>
+  <script src="assets/js/main1.js"></script><!-- 基底檔案 -->
+  <script src="assets/js/custom.js"></script><!-- 區塊化檔案 -->
+
+  <script>
+  //思源黑體非同步載入
+  var cb = function() {
+    var a = document.createElement('link');
+    a.rel = 'stylesheet';
+    a.href = 'https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,600,700,900&display=swap';;
+
+    var z = document.getElementsByTagName('head')[0];
+    z.parentNode.insertBefore(a, z);
+  };
+  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+    webkitRequestAnimationFrame || msRequestAnimationFrame;
+  if (raf) raf(cb);
+  else window.addEventListener('load', cb);
+  </script>
+  
+</body>
+
+</html>
