@@ -53,7 +53,9 @@ product_info_6_7 (系統功能)
 
 product_info_6_8 (應用功能)
   大標題
-  內容
+  內容(有分)
+    巡檢
+    設備
   裝飾圖
 
 product_info_6_9 (案例實績)
@@ -367,15 +369,9 @@ img[class*="product_info_6_2__deco-"] {
 }
 
 .en-version .product_info_6_2__content-title {
-  min-height: 88px;
+  min-height: 100px;
   letter-spacing: 1px;
   line-height: 1.5;
-}
-
-@media (max-width: 991px) {
-  .en-version .product_info_6_2__content-title {
-    min-height: 0px;
-  }
 }
 
 .product_info_6_2__content p {
@@ -4352,16 +4348,17 @@ img[class*="product_info_6_6__application_ehs-deco-"] {
 }
 
 .vi-version .product_info_6_8__equipent-funtion-title {
-  min-height: 75px;
+  min-height: 96px;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 1399px) {
   .en-version .product_info_6_8__equipent-funtion-title {
-    min-height: 160px;
+    min-height: 120px;
   }
 
   .vi-version .product_info_6_8__equipent-funtion-title {
-    min-height: 96px;
+    min-height: 120px;
   }
 }
 
@@ -4371,19 +4368,9 @@ img[class*="product_info_6_6__application_ehs-deco-"] {
   }
 }
 
-@media (max-width: 1199px) {
-  .vi-version .product_info_6_8__equipent-funtion-title {
-    min-height: 119px;
-  }
-}
-
 @media (max-width: 991px) {
   .product_info_6_8__equipent-funtion-title {
     min-height: 0px;
-  }
-
-  .vi-version .product_info_6_8__equipent-funtion-title {
-    min-height: 96px;
   }
 }
 
@@ -4409,12 +4396,13 @@ img[class*="product_info_6_6__application_ehs-deco-"] {
 }
 
 .en-version .product_info_6_8__equipent-funtion p {
-  min-height: 165px;
+  min-height: 140px;
   letter-spacing: 1px;
 }
 
 .vi-version .product_info_6_8__equipent-funtion p {
-  min-height: 132px;
+  min-height: 140px;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 1599px) {
@@ -4423,15 +4411,13 @@ img[class*="product_info_6_6__application_ehs-deco-"] {
   }
 }
 
-@media (max-width: 1399px) {
-  .vi-version .product_info_6_8__equipent-funtion p {
-    min-height: 165px;
-  }
-}
-
 @media (max-width: 1199px) {
+  .en-version .product_info_6_8__equipent-funtion p {
+    min-height: 220px;
+  }
+
   .vi-version .product_info_6_8__equipent-funtion p {
-    min-height: 260px;
+    min-height: 220px;
   }
 }
 
@@ -4440,8 +4426,14 @@ img[class*="product_info_6_6__application_ehs-deco-"] {
     min-height: 0px;
   }
 
+  .en-version .product_info_6_8__equipent-funtion p {
+    min-height: 120px;
+    letter-spacing: 1px;
+  }
+
   .vi-version .product_info_6_8__equipent-funtion p {
-    min-height: 195px;
+    min-height: 120px;
+    letter-spacing: 1px;
   }
 }
 
@@ -4456,51 +4448,53 @@ img[class*="product_info_6_6__application_ehs-deco-"] {
 }
 
 .product_info_6_8__equipent-funtion ul {
-  /*background-color: var(--color-primary);*/
   color: var(--color-white);
   border-radius: 12px;
   padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.en-version .product_info_6_8__equipent-funtion ul {
+.en-version .product_info_6_8__equipent-funtion span {
   min-height: 185px;
+  color: var(--color-white);
+  padding: 0px 30px;
+  text-align: center;
+  display: block;
 }
 
-.vi-version .product_info_6_8__equipent-funtion ul {
-  min-height: 155px;
+.vi-version .product_info_6_8__equipent-funtion span {
+  min-height: 185px;
+  color: var(--color-white);
+  padding: 0px 30px;
+  text-align: center;
+  display: block;
 }
 
-@media (max-width: 1299px) {
-  .vi-version .product_info_6_8__equipent-funtion ul {
-    min-height: 210px;
-  }
-}
 
 @media (max-width: 1199px) {
-  .vi-version .product_info_6_8__equipent-funtion ul {
-    min-height: 264px;
+  .en-version .product_info_6_8__equipent-funtion span {
+    min-height: 260px;
+  }
+
+  .vi-version .product_info_6_8__equipent-funtion span {
+    min-height: 260px;
   }
 }
 
 @media (max-width: 991px) {
-  .vi-version .product_info_6_8__equipent-funtion ul {
-    min-height: 160px;
-  }
-}
-
-@media (max-width: 767px) {
-  .en-version .product_info_6_8__equipent-funtion ul {
-    min-height: 0px;
+  .en-version .product_info_6_8__equipent-funtion span {
+    min-height: 150px;
   }
 
-  .vi-version .product_info_6_8__equipent-funtion ul {
-    min-height: 0px;
+  .vi-version .product_info_6_8__equipent-funtion span {
+    min-height: 150px;
   }
 }
 
 .product_info_6_8__equipent-funtion ul li {
-  list-style: none;
-  text-align: center;
+  list-style: disc;
 }
 
 
@@ -4552,18 +4546,11 @@ img[class*="product_info_6_8__deco-"] {
   }
 }
 
-/*@media (max-width: 480px) {
-  .en-version .product_info_6_8__deco-1 {
-    top: 6%;
-    width: 110px;
-  }
-}*/
-
 
 
 /*
 -----------------------------------------------------------------------
-  product_info_6_9
+  product_info_6_9(案例實績)
 -----------------------------------------------------------------------
 */
 
