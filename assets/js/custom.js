@@ -9,7 +9,7 @@
   // 5.product_6
   // 6.index_6_1(首頁Banner輪播)
   // 7.index_6_4(首頁最新消息輪播)
-  // 8.product_info_6_3(產品說明輪播)
+  // 8.product_info_6_5(產品說明輪播)
   // 9.index_6_8(首頁連結輪播)
   // 10.product_info_6_9(產品案例實績)
 
@@ -331,12 +331,12 @@
 
 
   /* -----------------------------------------------------------------------
-     8.product_6_4(產品說明輪播)
+     8.product_6_5(產品說明輪播)
      ----------------------------------------------------------------------- */
 
   // 產品說明輪播
-  if ($('.product_info_6_3__swiper').length) {
-    var swiper = new Swiper(".product_info_6_3__swiper", {
+  if ($('.product_info_6_5__swiper').length) {
+    var swiper = new Swiper(".product_info_6_5__swiper", {
       slidesPerView: 1,
       spaceBetween: 15,
       autoplay: false,
@@ -347,9 +347,14 @@
         clickable: true,
         type: 'bullets',
       },
+      pagination: {
+        el: '.swiper-pagination1',
+        clickable: true,
+        type: 'bullets',
+      },
       navigation: {
-        nextEl: ".swiper-button-next.product_info_6_3__next",
-        prevEl: ".swiper-button-prev.product_info_6_3__prev",
+        nextEl: ".swiper-button-next.product_info_6_5__next",
+        prevEl: ".swiper-button-prev.product_info_6_5__prev",
       },
       breakpoints: {
         320: {
