@@ -99,7 +99,11 @@ contact_6_2(送出完成頁)
 }
 
 .en-version .contact_6__contact-info-inner span {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
+}
+
+.en-version .contact_6__contact-info-inner span b {
+  letter-spacing: 0.01em;
 }
 
 .contact_6__contact-info-inner i {
@@ -261,7 +265,7 @@ contact_6_2(送出完成頁)
 }
 
 .en-version .contact_6__contact-form .form-group .form-control {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .contact_6__contact-form .form-group .form-control:focus {

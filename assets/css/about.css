@@ -150,7 +150,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_1__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_1__section-title-inner:last-child {
@@ -192,7 +192,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_1__section-sub-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_1__section-sub-inner:last-child {
@@ -245,7 +245,8 @@ img[class*="about_6_1__deco-"] {
 .en-version .about_6_1__disc p,
 .en-version .about_6_1__disc li{
   text-align: left;
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
+  line-height: 1.8;
 }
 
 .about_6_1__disc ul {
@@ -309,7 +310,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_1__number .counter {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_1__number .counter span {
@@ -318,7 +319,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_1__number .counter span {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_1__number .counter-item__desc {
@@ -328,7 +329,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_1__number .counter-item__desc {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_1__number .counter-item__img {
@@ -436,7 +437,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_2__title {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 @media only screen and (max-width: 991px) {
@@ -513,7 +514,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_3__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_3__section-title {
@@ -640,7 +641,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_3__text-title {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_3__text p {
@@ -653,7 +654,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_3__text p {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_3__text ul {
@@ -668,7 +669,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_3__text ul li {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 
@@ -707,7 +708,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_4__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_4__section-title-inner:last-child {
@@ -773,11 +774,12 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_4__disc span {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .en-version .about_6_4__disc p {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
+  line-height: 1.8;
 }
 
 /*/////////////////圖片/////////////////*/
@@ -848,7 +850,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_9__title-text {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_9__title-inner {
@@ -858,7 +860,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_9__title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 /*
@@ -898,7 +900,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_10__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_10__section-title-inner:last-child {
@@ -956,7 +958,8 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_10__text p {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
+  line-height: 1.8;
 }
 
 /*/////////////////圖片/////////////////*/
@@ -1019,7 +1022,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_5__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_5__section-title-inner:last-child {
@@ -1070,6 +1073,10 @@ img[class*="about_6_1__deco-"] {
   color: var(--color-white);
 }
 
+.en-version .about_6_5__text p {
+  line-height: 1.8;
+}
+
 /*/////////////////圖片/////////////////*/
 
 .about_6_5__img-wrap {
@@ -1111,7 +1118,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_6__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_6__section-title-inner:last-child {
@@ -1355,7 +1362,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_6__modle-content-title {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_6__modle-content-inner {
@@ -1366,7 +1373,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_6__modle-content-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_6__modle-content p {
@@ -1376,7 +1383,8 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_6__modle-content p {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
+  line-height: 1.8;
 }
 
 @media (max-width: 1399px) {
@@ -1422,7 +1430,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_7__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_7__section-title-inner:last-child {
@@ -1500,7 +1508,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_7__stage p {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 @media (max-width: 767px) {
@@ -1534,12 +1542,12 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_7__stage-date {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .en-version .about_6_7__stage-date span {
   font-size: var(--font-text);
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 @media (max-width: 991px) {
@@ -1592,7 +1600,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_7__table .table a {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_7__table .table thead {
@@ -1614,7 +1622,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_7__table .table thead th {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 
@@ -1678,7 +1686,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_7__table .table tbody td {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_7__table .table tbody td:first-child {
@@ -1754,7 +1762,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_8__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_8__section-title-inner:last-child {
@@ -1823,7 +1831,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_11__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_11__section-title-inner:last-child {
@@ -1999,7 +2007,7 @@ img[class*="about_6_1__deco-"] {
 .en-version .about_6_11__item-title {
   width: calc(100% - 35px);
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 @media (max-width: 1499px) {
@@ -2045,7 +2053,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_12__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_12__section-title-inner:last-child {
@@ -2235,7 +2243,7 @@ img[class*="about_6_1__deco-"] {
 .en-version .about_6_12__item-title {
   margin: 0px;
   text-align: left;
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 @media (max-width: 375px) {
@@ -2282,7 +2290,7 @@ img[class*="about_6_1__deco-"] {
 }
 
 .en-version .about_6_13__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_13__section-title-inner:last-child {
@@ -2462,12 +2470,13 @@ img[class*="about_6_14__deco-"] {
 }
 
 .en-version .about_6_14__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_14__section-title-inner:last-child {
   margin-bottom: 0;
 }
+
 
 @media (max-width: 375px) {
   .about_6_14__section-title-inner {
@@ -2497,7 +2506,8 @@ img[class*="about_6_14__deco-"] {
 }
 
 .en-version .about_6_14__text p {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
 }
 
 /*/////////////////圖片/////////////////*/
@@ -2567,7 +2577,7 @@ img[class*="about_6_14__deco-"] {
 }
 
 .en-version .about_6_15__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_15__section-title-inner:last-child {
@@ -2680,7 +2690,7 @@ img[class*="about_6_14__deco-"] {
 }
 
 .en-version .about_6_16__section-title-inner {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }
 
 .about_6_16__section-title-inner:last-child {
@@ -2757,5 +2767,5 @@ img[class*="about_6_14__deco-"] {
 } 
 
 .en-version .about_6_16__item-text li {
-  letter-spacing: 1px;
+  letter-spacing: 0.01em;
 }

@@ -4,8 +4,12 @@
     列表頁
 
     內容頁
-      服務項目內頁大標題
-      服務項目內頁圖片
+      產品選單
+      如何協助企業
+      產品介紹
+        數位化
+        數位優化
+        數位轉型
 -----------------------------------------------------------------------
 */
 
@@ -633,6 +637,14 @@ img[class*="service_6_4__deco-"] {
   text-align: center;
 }
 
+.en-version .service_info_6_h__nav-title {
+  letter-spacing: 0.01em;
+}
+
+.en-version .service_info_6_h__nav-inner a {
+  letter-spacing: 0.01em;
+}
+
 @media (max-width: 1399px) {
   .service_info_6_h__nav-inner {
     padding: 30px 10px;
@@ -715,6 +727,10 @@ img[class*="service_6_4__deco-"] {
   margin-bottom: 5px;
 }
 
+.en-version .service_info_6_1__section-title-inner {
+  letter-spacing: 0.01em;
+}
+
 .service_info_6_1__section-title-inner:last-child {
   margin-bottom: 0;
 }
@@ -743,7 +759,9 @@ img[class*="service_6_4__deco-"] {
   letter-spacing: 0.15em;
 }
 
-
+.en-version .service_info_6_1__disc p {
+  letter-spacing: 0.01em;
+}
 
 /*
 -----------------------------------------------------------------------
@@ -796,6 +814,10 @@ img[class*="service_6_4__deco-"] {
   width: 100%;
   text-align: center;
   padding: 20px 50px;
+}
+
+.en-version .service_info_6_3__tab-nav li a span {
+  letter-spacing: 0.01em;
 }
 
 @media only screen and (max-width: 1399px) {
@@ -945,6 +967,10 @@ img[class*="service_6_4__deco-"] {
   margin-bottom: 5px;
 }
 
+.en-version .service_info_6_3__digiti-title-inner {
+  letter-spacing: 0.01em;
+}
+
 .service_info_6_3__digiti-title-inner:last-child {
   margin-bottom: 0;
 }
@@ -1057,6 +1083,10 @@ img[class*="service_6_4__deco-"] {
   line-height: 1.5;
 }
 
+.en-version .service_info_6_3__digiti-check .title {
+  letter-spacing: 0.01em;
+}
+
 @media (max-width: 991px) {
   .service_info_6_3__digiti-check .title {
   }
@@ -1144,6 +1174,10 @@ img[class*="service_6_4__deco-"] {
   font-weight: bold;
 }
 
+.en-version .service_info_6_3__digiti-disc .title {
+  letter-spacing: 0.01em;
+}
+
 .service_info_6_3__digiti-disc ul{
   padding-left: 24px;
   list-style: disc;
@@ -1160,9 +1194,17 @@ img[class*="service_6_4__deco-"] {
   font-size: var(--font-text);
 }
 
+.en-version .service_info_6_3__digiti-disc ul>li {
+  letter-spacing: 0.01em;
+}
+
 .service_info_6_3__digiti-disc p {
   font-size: var(--font-text);
   letter-spacing: 0.15rem;
+}
+
+.en-version .service_info_6_3__digiti-disc p {
+  letter-spacing: 0.01em;
 }
 
 .service_info_6_3__digiti-disc span{
@@ -1171,6 +1213,9 @@ img[class*="service_6_4__deco-"] {
   line-height: 1.5;
 }
 
+.en-version .service_info_6_3__digiti-disc span {
+  letter-spacing: 0.01em;
+}
 
 /*/////////////////02數位優化/////////////////*/
 
@@ -1275,6 +1320,10 @@ img[class*="service_6_4__deco-"] {
   font-weight: bold;
 }
 
+.en-version .service_info_6_3__optimization-disc .title {
+  letter-spacing: 0.01em;
+}
+
 .service_info_6_3__optimization-disc ul{
   padding-left: 24px;
   list-style: disc;
@@ -1291,11 +1340,18 @@ img[class*="service_6_4__deco-"] {
   font-size: var(--font-text);
 }
 
+.en-version .service_info_6_3__optimization-disc ul>li {
+  letter-spacing: 0.01em;
+}
+
 .service_info_6_3__optimization-disc p {
   font-size: var(--font-text);
   letter-spacing: 0.15rem;
 }
 
+.en-version .service_info_6_3__optimization-disc p {
+  letter-spacing: 0.01em;
+}
 
 
 /*-------------圖片(一般排序)-------------*/
@@ -1403,6 +1459,10 @@ img[class*="service_6_4__deco-"] {
   margin-bottom: 20px;
 }
 
+.en-version .service_info_6_3__transform-disc .title {
+  letter-spacing: 0.01em;
+}
+
 @media (max-width: 576px) {
   .service_info_6_3__transform-disc .title {
     margin-bottom: 10px;
@@ -1416,6 +1476,10 @@ img[class*="service_6_4__deco-"] {
 
 .service_info_6_3__transform-disc ul li {
   list-style: disc; 
+}
+
+.en-version .service_info_6_3__transform-disc ul li {
+  letter-spacing: 0.01em;
 }
 
 
