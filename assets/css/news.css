@@ -605,6 +605,10 @@ news_6
   color: var(--color-primary);
 }
 
+.news_6__disc hr {
+  margin-bottom: 50px;
+}
+
 /*附圖*/
 .news_6__single-img img {
   border-radius: 10px;
@@ -647,6 +651,49 @@ news_6
     font-size: 21px;
   }
 }
+
+/*表格*/
+.new_6__disc-table .table-responsive {
+  margin-bottom: 40px;
+}
+
+.new_6__disc-table .table-responsive table {
+  min-width:100%;
+}
+
+.new_6__disc-table .table-responsive .table>:not(:first-child) {
+  border-top: none;
+}
+
+.new_6__disc-table .table-responsive table th {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+@media only screen and (max-width: 767px) {
+  .new_6__disc-table .table-responsive table tr {
+    display: block;
+  }
+
+  .new_6__disc-table .table-responsive table th {
+    display: block;
+  }
+
+  .new_6__disc-table .table-responsive table td {
+    display: block;
+  }
+
+  .new_6__disc-table .table-responsive table td:last-child {
+    border-bottom: none;
+  }
+
+  .new_6__disc-table .table-responsive table tr+tr {
+    border-top: solid 2px var(--color-primary);
+  }
+}
+
+
+
 
 /*/////////////////消息分享/////////////////*/
 
