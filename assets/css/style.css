@@ -3539,8 +3539,15 @@ p.footer_6__copyright {
   margin-top: 2px;
 }
 
+/*.header_10__main-menu.nav>li .news_mark {
+  position: absolute;
+  right: -17px;
+  top: -20px;
+}*/
+
 .header_10__main-menu.nav>li {
   margin-right: 30px;
+  position: relative;
 }
 
 .header_10__main-menu.nav>li>a {
@@ -3666,7 +3673,7 @@ p.footer_6__copyright {
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
   .header_10__main-menu.nav>li {
-    margin-right: 12px;
+    margin-right: 8px;
   }
 
   .header_10__main-menu.nav>li>a {
