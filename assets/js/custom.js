@@ -379,6 +379,54 @@
 
 
   /* -----------------------------------------------------------------------
+     9.service_aip_6_3(解決方案輪播)
+     ----------------------------------------------------------------------- */
+
+  // 產品說明輪播
+  if ($('.service_aip_6_3__swiper').length) {
+    var swiper = new Swiper(".service_aip_6_3__swiper", {
+      slidesPerView: 1,
+      spaceBetween: 15,
+      autoplay: false,
+      centeredSlides: true,
+      loop:true,
+      pagination: {
+        el: '.swiper-pagination2',
+        clickable: true,
+        type: 'bullets',
+      },
+      pagination: {
+        el: '.swiper-pagination1',
+        clickable: true,
+        type: 'bullets',
+      },
+      navigation: {
+        nextEl: ".swiper-button-next.service_aip_6_3__next",
+        prevEl: ".swiper-button-prev.service_aip_6_3__prev",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        600: {
+          slidesPerView: 1,
+        },
+        767: {
+          slidesPerView: 1,
+        },
+        991: {
+          slidesPerView: 1,
+        },
+        1199: {
+          slidesPerView: 1,
+        },
+      }
+    });
+  }
+
+
+
+  /* -----------------------------------------------------------------------
      index_6_6(目前沒有)
      ----------------------------------------------------------------------- */
 
