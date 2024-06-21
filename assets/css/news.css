@@ -32,12 +32,10 @@ event_6
 
 /*/////////////////消息卡片/////////////////*/
 
-
 .news_6__product-item {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
-
 
 .news_6__inner-content {
   background-color: var(--color-white);
@@ -145,6 +143,7 @@ event_6
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+
 
 /*/////////////////消息標籤/////////////////*/
 
@@ -496,6 +495,7 @@ event_6
   color: var(--color-primary);
 }
 
+
 /*/////////////////消息內頁文章/////////////////*/
 
 .news_6__single {
@@ -716,7 +716,6 @@ event_6
 .news_6__social-sharing .news_6__social-icons a:hover {
   color: var(--color-primary);
 }
-
 
 .news_6__social-icons .fab.fa-facebook-f {
   font-size: 18px;
@@ -945,7 +944,6 @@ event_6
   z-index: 1;
 }
 
-/*已結束*/
 .event_6__end {
   position: absolute;
   z-index: 1;
@@ -1329,22 +1327,24 @@ event_6
 }
 
 /*活動表格*/
-.new_6__disc-table .table-responsive .table>:not(:first-child) {
+.event_6__disc-table .table-responsive .table>:not(:first-child) {
   border-top: none;
 }
 
-.new_6__disc-table .table-responsive table tr {
-    border-width: 1px;
+.event_6__disc-table .table-responsive table tr {
+  border-width: 1px;
 }
 
-.new_6__disc-table .table-responsive table td {
-    border-width: 1px;
+.event_6__disc-table .table-responsive table td {
+  border-width: 1px;
+  text-align: center;
 }
 
-.new_6__disc-table .table-responsive table th {
+.event_6__disc-table .table-responsive table th {
   background-color: var(--color-primary);
   color: var(--color-white);
   border-width: 1px;
+  text-align: center;
 }
 
 
@@ -1411,6 +1411,12 @@ event_6
 
 
 
+/* =======================================================================================================================*/
+
+
+
+
+
 /*/////////////////2版-活動上方選單/////////////////*/
 
 .event_6__widget-item {
@@ -1450,8 +1456,6 @@ event_6
   border: 1px solid var(--color-primary);
   border-radius: 32px;
   margin-right: 20px;
-  /*height: 48px;*/
-  /*line-height: 48px;*/
   padding: 8px 30px;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1493,10 +1497,6 @@ event_6
 .event_6__widget-categories ul li.active span {
   color: var(--color-white);
 }
-
-/*.event_6__widget-categories ul li:last-child {
-  margin-bottom: 0;
-}*/
 
 .event_6__widget-categories ul li a {
   -webkit-box-align: center;
@@ -1594,7 +1594,6 @@ event_6
   z-index: 1;
 }
 
-/*已結束*/
 .event_6_test__end {
   position: absolute;
   z-index: 1;
@@ -1667,9 +1666,6 @@ event_6
   font-weight: bold;
   font-size: 16px;
 }
-
-
-
 
 
 /*/////////////////2版-內頁/////////////////*/
