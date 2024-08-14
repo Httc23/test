@@ -30,9 +30,17 @@
   font-weight: bold;
 }
 
+.en-version .privacy_6__list {
+  letter-spacing: 0.01em;
+}
+
 .privacy_6__list-warp p {
   font-size: 17px;
   letter-spacing: 0.1rem;
+}
+
+.en-version .privacy_6__list-warp p {
+  letter-spacing: 0.01em;
 }
 
 .privacy_6__list-warp ul {

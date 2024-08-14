@@ -3089,6 +3089,10 @@ p.footer_6__copyright {
   letter-spacing: 0.1rem;
 }
 
+.en-version .header_10~.off-canvas-wrapper .res-mobile-menu .slicknav_nav li a {
+  letter-spacing: 0.01em;
+}
+
 .header_10~.off-canvas-wrapper .res-mobile-menu .slicknav_nav li a .slicknav_arrow {
   background-color: transparent;
   color: #1d1d1d;
@@ -4383,6 +4387,10 @@ p.footer_6__copyright {
   position: relative;
 }
 
+.en-version .header_10~.off-canvas-wrapper .btn-menu-close {
+  letter-spacing: 0.01em;
+}
+
 .header_10~.off-canvas-wrapper .btn-menu-close i {
   position: absolute;
   height: 40px;
@@ -4542,6 +4550,10 @@ p.footer_6__copyright {
 }
 
 @media only screen and (max-width: 1199px) {
+  .header_10 .logo-main {
+    max-width: 200px;
+  }
+
   .en-version .header_10 .logo-main {
     max-width: 200px;
   }
